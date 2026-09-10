@@ -1,0 +1,3192 @@
+{
+  "source": "58572048_1 (1).pdf",
+  "categories": [
+    {
+      "id": "toasts",
+      "name": "Toasts",
+      "group": "food",
+      "hours": "Until 14:00",
+      "note": ""
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "group": "food",
+      "hours": "Until 16:00",
+      "note": ""
+    },
+    {
+      "id": "loaded-fries",
+      "name": "Loaded fresh fries",
+      "group": "food",
+      "hours": "From 14:00",
+      "note": ""
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "group": "food",
+      "hours": "From 14:00",
+      "note": ""
+    },
+    {
+      "id": "sweets",
+      "name": "Sweets",
+      "group": "food",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "specialty-coffee",
+      "name": "Specialty coffee",
+      "group": "cafe",
+      "hours": "",
+      "note": "Roasted at Two Minutes Lab."
+    },
+    {
+      "id": "iced-coffee",
+      "name": "Iced coffee",
+      "group": "cafe",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "matcha",
+      "name": "Matcha",
+      "group": "cafe",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "tea",
+      "name": "Premium tea",
+      "group": "cafe",
+      "hours": "",
+      "note": "Hot or iced · 300 ml"
+    },
+    {
+      "id": "raw-juice",
+      "name": "Raw juice",
+      "group": "cafe",
+      "hours": "",
+      "note": "Fruit marked * comes from frozen fruit."
+    },
+    {
+      "id": "energy-drinks",
+      "name": "Energy drinks",
+      "group": "cafe",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "soft-drinks",
+      "name": "Soft drinks",
+      "group": "cafe",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "beer-on-tap",
+      "name": "Beer on tap",
+      "group": "bar",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "beer-bottles",
+      "name": "Beer bottles",
+      "group": "bar",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "shots",
+      "name": "Shots",
+      "group": "bar",
+      "hours": "",
+      "note": "30 ml"
+    },
+    {
+      "id": "urbanist-specials",
+      "name": "Urbanist specials",
+      "group": "bar",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "cocktails",
+      "name": "Longs & cocktails",
+      "group": "bar",
+      "hours": "",
+      "note": ""
+    },
+    {
+      "id": "wines",
+      "name": "Wines & bubbles",
+      "group": "bar",
+      "hours": "",
+      "note": "125 ml glass / 750 ml bottle"
+    },
+    {
+      "id": "gin",
+      "name": "Gin",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "rum",
+      "name": "Rum",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "vodka",
+      "name": "Vodka",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "whiskey",
+      "name": "Whiskey",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "tequila",
+      "name": "Tequila & mezcal",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "aperitif",
+      "name": "Aperitif",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "other-spirits",
+      "name": "Other spirits",
+      "group": "bar",
+      "hours": "",
+      "note": "40 ml"
+    },
+    {
+      "id": "mixers",
+      "name": "Make it long",
+      "group": "bar",
+      "hours": "",
+      "note": "200 ml mixer · added to your spirit"
+    }
+  ],
+  "items": [
+    {
+      "id": "toasts-ham-n-cheese",
+      "categoryId": "toasts",
+      "name": "Ham ‘N Cheese",
+      "description": "Prosciutto cotto, cheddar and mozzarella toasted in sourdough bread (40g/35g/35g/200g)",
+      "serving": "",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        7
+      ],
+      "notes": [],
+      "sourceText": "HAM ‘N CHEESE 19LEI\nPROSCIUTTO COTTO, CHEDDAR AND MOZARELLA TOASTED IN SOURDOUGH BREAD (40G/35G/35G/200G)ALLERGEN 1, 7"
+    },
+    {
+      "id": "toasts-grilled-cheese",
+      "categoryId": "toasts",
+      "name": "Grilled Cheese",
+      "description": "Cheddar, mozzarella and gorgonzola toasted in sourdough bread (35g/35g/30g/200g)",
+      "serving": "",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        7
+      ],
+      "notes": [],
+      "sourceText": "GRILLED CHEESE 19LEI\nCHEDDAR, MOZARELLA AND GORGONZOLA TOASTED IN SOURDOUGH BREAD (35G/35G/30G/200G) ALLERGEN 1, 7"
+    },
+    {
+      "id": "toasts-feta-roasted-pepper",
+      "categoryId": "toasts",
+      "name": "Feta & Roasted Pepper",
+      "description": "Feta cheese, roasted pepper, pesto toasted in sourdough bread (40g/30g/30g/200g)",
+      "serving": "",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        7,
+        8
+      ],
+      "notes": [],
+      "sourceText": "FETA & ROASTED PEPPER 19LEI\nFETA CHEESE, ROASTED PEPPER, PESTO TOASTED IN SOURDOUGH BREAD (40G/30G/30G/200G) ALLERGEN 1, 7, 8"
+    },
+    {
+      "id": "eggs-avo-benedict",
+      "categoryId": "eggs",
+      "name": "Avo-Benedict",
+      "description": "Avocado, poached eggs, hollandaise sauce on a slice of sourdough bread + salad mix (60g/2p/50g/100g/50g)",
+      "serving": "",
+      "prices": [
+        34
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        10,
+        11
+      ],
+      "notes": [],
+      "sourceText": "AVO-BENEDICT 34LEI\nAVOCADO, POACHED EGGS, HOLLANDAISE SAUCE ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (60G/2P/50G/100G/50G) ALLERGEN 1, 3, 7, 10, 11"
+    },
+    {
+      "id": "eggs-avo-salmon-benedict",
+      "categoryId": "eggs",
+      "name": "Avo-Salmon-Benedict",
+      "description": "Avocado, salmon, poached eggs, hollandaise sauce on a slice of sourdough bread + salad mix (60g/70g/2p/50g/100g/50g)",
+      "serving": "",
+      "prices": [
+        44
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        4,
+        7,
+        10,
+        11
+      ],
+      "notes": [],
+      "sourceText": "AVO-SALMON-BENEDICT 44LEI\nAVOCADO, SALMON, POACHED EGGS, HOLLANDAISE SAUCE ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (60G/70G/2P/50G/100G/50G) ALLERGEN 1, 3, 4, 7, 10, 11"
+    },
+    {
+      "id": "eggs-shakshouka",
+      "categoryId": "eggs",
+      "name": "Shakshouka",
+      "description": "Our legendary marinara sauce, poached eggs, feta cheese and parsley served with sourdough bread + salad mix (200g/2p/35g/2g/100g/50g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        11
+      ],
+      "notes": [],
+      "sourceText": "SHAKSHOUKA 29LEI\nOUR LEGENDARY MARIANARA SAUCE, POACHED EGGS, FETA CHEESE AND PRASLEY SERVED WITH SOURDOUGH BREAD + SALAD MIX (200G/2P/35G/2G/100G/50G)ALLERGEN 1, 3, 7, 11"
+    },
+    {
+      "id": "eggs-turkish-eggs",
+      "categoryId": "eggs",
+      "name": "Turkish Eggs",
+      "description": "Greek yogurt whipped with tahini, poached eggs dressed in spicy hot butter served with sourdough bread + salad mix (150g/2p/20g/100g/50g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        11
+      ],
+      "notes": [],
+      "sourceText": "TURKISH EGGS 29LEI\nGREEK YOGURT WHIPPED WITH TAHINI, POACHED EGGS DRESSED IN SPICY HOT BUTTER SERVED WITH SOURDOUGH BREAD + SALAD MIX (150G/2P/20G/100G/50G)ALLERGEN 1, 3, 7, 11"
+    },
+    {
+      "id": "eggs-ham-cheese-omlette",
+      "categoryId": "eggs",
+      "name": "Ham&Cheese Omelette",
+      "description": "Prosciutto cotto, mozzarella, cheddar, gorgonzola dressed in eggs with grana padano and sourdough bread + salad mix (50g/40g/40g/20g/3p/100g/50g)",
+      "serving": "",
+      "prices": [
+        34
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        11
+      ],
+      "notes": [],
+      "sourceText": "HAM&CHEESE OMLETTE 34LEI\nPROSCIUTTO COTTO, MOZARELLA, CHEDDAR, GORGONZOLA DRESSED IN EGGS WITH GRANA PADANO AND SOURDOUGH BREAD + SALAD MIX (50G/40G/40G/20G/3P/100G/50G) ALLERGEN 1, 3, 7, 11"
+    },
+    {
+      "id": "eggs-cheese-omlette",
+      "categoryId": "eggs",
+      "name": "Cheese Omelette",
+      "description": "Mozzarella, cheddar, gorgonzola dressed in eggs with grana padano and sourdough bread + salad mix (40g/40g/20g/3p/30g/100g/50g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        11
+      ],
+      "notes": [],
+      "sourceText": "CHEESE OMLETTE 29LEI\nMOZARELLA, CHEDDAR, GORGONZOLA DRESSED IN EGGS WITH GRANA PADANO AND SOURDOUGH BREAD + SALAD MIX (40G/40G/20G/3P/30G/100G/50G)ALLERGEN 1, 3, 7, 11"
+    },
+    {
+      "id": "eggs-veggies-omlette",
+      "categoryId": "eggs",
+      "name": "Veggies Omelette",
+      "description": "Kapia pepper, red onion, pleurotus mushroom dressed in eggs and sourdough bread + salad mix (40/30/40/3p/100/50g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        11
+      ],
+      "notes": [],
+      "sourceText": "VEGGIES OMLETTE 29LEI\nKAPIA PEPPER, RED ONION, PLEUROTUS MUSHROOM DRESSED IN EGGS AND SOURDOUGH BREAD + SALAD MIX (40/30/40/3P/100/50G)ALLERGEN 1, 3, 11"
+    },
+    {
+      "id": "eggs-no-eggs-pink-hummus-mushroom",
+      "categoryId": "eggs",
+      "name": "No Eggs Pink Hummus & Mushroom",
+      "description": "Hummus with beetroot, pleurotus mushroom, pickled onion on a slice of sourdough bread + salad mix (100g/60g/100g/50g/1g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        11
+      ],
+      "notes": [],
+      "sourceText": "NO EGGS PINK HUMMUS & MUSHROOM 29LEI\nHUMMUS WITH BEETROOT, PLEUROTUS MUSHROOM, PICKLED ONION ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (100G/60G/100G/50G/1G)ALLERGEN 1, 11"
+    },
+    {
+      "id": "loaded-fries-fresh-fries-with-eggs-cheese",
+      "categoryId": "loaded-fries",
+      "name": "Fresh Fries With Eggs & Cheese",
+      "description": "Fresh fries, feta cheese, folded eggs (300gr/100g/3p)",
+      "serving": "",
+      "prices": [
+        39
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        3,
+        7
+      ],
+      "notes": [],
+      "sourceText": "FRESH FRIES WITH EGGS & CHEESE 39LEI\nFRESH FRIES, FETA CHEESE, FOLDED EGGS (300GR/100G/3P)ALLERGEN 3, 7"
+    },
+    {
+      "id": "loaded-fries-fresh-fries-garlic-wings",
+      "categoryId": "loaded-fries",
+      "name": "Fresh Fries & Garlic Wings",
+      "description": "Fresh fries, fried chicken wings, garlic, grana padana, parsley, served with pickled cucumber and aioli sauce (300gr/300gr/100gr/75g)",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "FRESH FRIES & GARLIC WINGS 45LEI\nFRESH FRIES, FRIED CHICKEN WINGS, GARLIC, GRANA PADANA, PARSLEY, SERVED WITH PICKLED CUCUMBER AND AIOLI SAUCE (300GR/300GR/100GR/75G)ALLERGEN 7"
+    },
+    {
+      "id": "loaded-fries-fresh-fries-buffalo-wings",
+      "categoryId": "loaded-fries",
+      "name": "Fresh Fries & Buffalo Wings",
+      "description": "Fresh fries, fried chicken wings, frank’s xtrahot, butter, served with pickled cucumber and aioli sauce (300gr/300gr/100gr/75g)",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "FRESH FRIES & BUFFALO WINGS 45LEI\nFRESH FRIES, FRIED CHICKEN WINGS, FRANK’S XTRAHOT, BUTTER, SERVED WITH PICKLED CUCUMBER AND AIOLI SAUCE (300GR/300GR/100GR/75G) ALLERGEN 7"
+    },
+    {
+      "id": "loaded-fries-fresh-fries-crispy-chicken",
+      "categoryId": "loaded-fries",
+      "name": "Fresh Fries & Crispy Chicken",
+      "description": "Fresh fries, fried crispy chicken tenders, gorgonzola sauce, grana padano, served with pickled cucumber and aioli sauce (300g/280g/30g/30g/100g/75g)",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "FRESH FRIES & CRISPY CHICKEN 45LEI\nFRESH FRIES, FRIED CRISPY CHICKEN TENDERS, GORGONZOLA SAUCE, GRANA PADANO, SERVED WITH PICKLED CUCUMBER AND AIOLI SAUCE (300G/280G/30G/30G/100G/75G)ALLERGEN 7"
+    },
+    {
+      "id": "loaded-fries-fresh-fries-crispy-pleurotus",
+      "categoryId": "loaded-fries",
+      "name": "Fresh Fries & Crispy Pleurotus",
+      "description": "Fresh fries, fried pleurotus mushroom, served with pickled cucumber and aioli sauce (300gr/250gr/100g/75g)",
+      "serving": "",
+      "prices": [
+        39
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1
+      ],
+      "notes": [],
+      "sourceText": "FRESH FRIES & CRISPY PLEUROTUS 39LEI\nFRESH FRIES, FRIED PLEUROTUS MUSHROOM, SERVED WITH PICKLED CUCUMBER AND AIOLI SAUCE (300GR/250GR/100G/75G)ALLERGEN 1"
+    },
+    {
+      "id": "loaded-fries-mashed-potatoes-chicken-balls",
+      "categoryId": "loaded-fries",
+      "name": "Mashed Potatoes & Chicken Balls",
+      "description": "Smash potatoes, chicken meat balls, served marinara sauce and pickled cucumber (300gr/180gr/200gr/50gr)",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "notes": [],
+      "sourceText": "MASHED POTATOES & CHICKEN BALLS 45LEI\nSMASH POTATOES, CHICKEN MEAT BALLS, SERVED MARINARA SAUCE AND PICKLED CUCUMBER (300GR/180GR/200GR/50GR)ALLERGEN 1, 3, 7"
+    },
+    {
+      "id": "sides-beer-chips-xxl",
+      "categoryId": "sides",
+      "name": "Beer Chips XXL",
+      "description": "Potatoes, maldon salt (200g)",
+      "serving": "",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BEER CHIPS XXL 19LEI\nPOTATOES, MALDON SALT (200G)"
+    },
+    {
+      "id": "sides-beer-chips-xxl-with-grana-padano-dill",
+      "categoryId": "sides",
+      "name": "Beer Chips XXL With Grana Padano & Dill",
+      "description": "Potatoes, maldon salt (200g)",
+      "serving": "",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "BEER CHIPS XXL WITH GRANA PADANO & DILL 24LEI\nPOTATOES, MALDON SALT (200G) ALLERGEN 7"
+    },
+    {
+      "id": "sides-fresh-fries-with-grana-padano-garlic-prasley",
+      "categoryId": "sides",
+      "name": "Fresh Fries With Grana Padano, Garlic & Parsley",
+      "description": "Potatoes, grana padana, garlic, parsley, maldon salt (300g/50g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "FRESH FRIES WITH GRANA PADANO, GARLIC & PRASLEY 29LEI\nPOTATOES, GRANA PADANA, GARLIC, PARLSLEY, MALDON SALT (300G/50G) ALLERGEN 7"
+    },
+    {
+      "id": "sides-fresh-fries-with-garlic",
+      "categoryId": "sides",
+      "name": "Fresh Fries With Garlic",
+      "description": "Potatoes, garlic (300g/50g)",
+      "serving": "",
+      "prices": [
+        26
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "FRESH FRIES WITH GARLIC 26LEI\nPOTATOES, GARLIC (300G/50G)"
+    },
+    {
+      "id": "sides-fresh-fries-with-maldon-salt",
+      "categoryId": "sides",
+      "name": "Fresh Fries With Maldon Salt",
+      "description": "Potatoes, maldon salt (300g)",
+      "serving": "",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "FRESH FRIES WITH MALDON SALT 24LEI\nPOTATOES, MALDON SALT (300G)"
+    },
+    {
+      "id": "sides-mashed-potatoes",
+      "categoryId": "sides",
+      "name": "Mashed Potatoes",
+      "description": "Potatoes, milk, butter (300g)",
+      "serving": "",
+      "prices": [
+        26
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "MASHED POTATOES 26LEI\nPOTATOES, MILK, BUTTER (300G)ALLERGEN 7"
+    },
+    {
+      "id": "sides-hummus-with-beetroot",
+      "categoryId": "sides",
+      "name": "Hummus With Beetroot",
+      "description": "Chickpeas, tahini, lemon, olive oil, garlic, bread (300g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1
+      ],
+      "notes": [],
+      "sourceText": "HUMMUS WITH BEETROOT 29LEI\nCHICKPEAS, TAHINI, LEMON, OLIVE OIL, GARLIC, BREAD (300G)ALLERGEN 1"
+    },
+    {
+      "id": "sides-extra-homade-sauces",
+      "categoryId": "sides",
+      "name": "Extra Homemade Sauces",
+      "description": "Marinara / pesto / gorgonzola / aioli / spicy honey / xhot mayo (75g)",
+      "serving": "",
+      "prices": [
+        9
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [
+        "Listed by sauce: marinara — gluten; pesto — milk, nuts; gorgonzola — milk; Xhot mayo — eggs, mustard. Ask staff about the other sauces."
+      ],
+      "sourceText": "EXTRA HOMADE SAUCES 9LEI\nMARINARA / PESTO / GORGONZOLA / AIOLI / SPICY HONEY / XHOT MAYO (75G) ALLERGEN 1 ALLERGEN 7, 8 ALLERGEN 7 ALLERGEN 3, 10"
+    },
+    {
+      "id": "sweets-clasic-tiramisu",
+      "categoryId": "sweets",
+      "name": "Classic Tiramisu",
+      "description": "Ladyfingers drunked in coffee, classic tiramisu cream with eggs and mascarpone cream, cocoa (250 g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        8
+      ],
+      "notes": [],
+      "sourceText": "CLASIC TIRAMISU 29LEI\nLADYFINGERS DRUNKED IN COFFEE, CLASSIC TIRAMISU CREAM WITH EGGS AND MASCARPONE CREAM, COCOA (250 G) ALLERGEN 1, 3, 7, 8"
+    },
+    {
+      "id": "sweets-matcha-tiramisu",
+      "categoryId": "sweets",
+      "name": "Matcha Tiramisu",
+      "description": "Ladyfingers drunked in coffee, classic tiramisu cream with eggs and mascarpone, matcha powder (250 g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        8
+      ],
+      "notes": [],
+      "sourceText": "MATCHA TIRAMISU 29LEI\nLADYFINGERS DRUNKED IN COFFEE, CLASSIC TIRAMISU CREAM WITH EGGS AND MASCARPONE, MATCHA POWDER (250 G)ALLERGEN 1, 3, 7, 8"
+    },
+    {
+      "id": "sweets-xxl-crepe-chocolate-banana",
+      "categoryId": "sweets",
+      "name": "XXL Crepe Chocolate & Banana",
+      "description": "White flour, eggs, milk, vanilla, nutella, callebault chocolate, banana (300 g)",
+      "serving": "",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [
+        1,
+        3,
+        7,
+        8
+      ],
+      "notes": [],
+      "sourceText": "XXL CREPE CHOCOLATE & BANANA 29LEI\nWHITE FLOUR, EGGS, MILK, VANILLA, NUTELLA, CALLEBAULT CHOCOLATE, BANANA (300 G)ALLERGEN 1, 3, 7, 8"
+    },
+    {
+      "id": "specialty-coffee-espresso-or-espresso-double",
+      "categoryId": "specialty-coffee",
+      "name": "Espresso / Espresso Double",
+      "description": "Single origin coffee",
+      "serving": "20ml/40ml",
+      "prices": [
+        10,
+        13
+      ],
+      "priceLabels": [
+        "Espresso · 20ml",
+        "Espresso Double · 40ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ESPRESSO / ESPRESSO DOUBLE 20ML/40ML - 10 / 13LEI\nSINGLE ORIGIN COFFEE"
+    },
+    {
+      "id": "specialty-coffee-long-black-or-strong-long-black",
+      "categoryId": "specialty-coffee",
+      "name": "Long Black / Strong Long Black",
+      "description": "Espresso / espresso double + hot water",
+      "serving": "80ml/100ml",
+      "prices": [
+        13,
+        16
+      ],
+      "priceLabels": [
+        "Long Black · 80ml",
+        "Strong Long Black · 100ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LONG BLACK / STRONG LONG BLACK 80ML/100ML - 13 / 16LEI\nESPRESSO / ESPRESSO DOUBLE + HOT WATER"
+    },
+    {
+      "id": "specialty-coffee-macchiato-or-cortado",
+      "categoryId": "specialty-coffee",
+      "name": "Macchiato / Cortado",
+      "description": "Espresso + milk",
+      "serving": "40ml/100ml",
+      "prices": [
+        13,
+        15
+      ],
+      "priceLabels": [
+        "Macchiato · 40ml",
+        "Cortado · 100ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "MACCHIATO / CORTADO 40ML/100ML - 13 / 15LEI\nESPRESSO + MILK ALLERGEN 7"
+    },
+    {
+      "id": "specialty-coffee-cappuccino",
+      "categoryId": "specialty-coffee",
+      "name": "Cappuccino",
+      "description": "Espresso + milk",
+      "serving": "200ml",
+      "prices": [
+        15
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "CAPPUCCINO 200ML - 15LEI\nESPRESSO + MILK ALLERGEN 7"
+    },
+    {
+      "id": "specialty-coffee-flat-white",
+      "categoryId": "specialty-coffee",
+      "name": "Flat White",
+      "description": "Espresso double + milk",
+      "serving": "200ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "FLAT WHITE 200ML - 18LEI\nESPRESSO DOUBLE + MILK ALLERGEN 7"
+    },
+    {
+      "id": "specialty-coffee-latte-or-strong-latte",
+      "categoryId": "specialty-coffee",
+      "name": "Latte / Strong Latte",
+      "description": "Espresso / espresso double + milk",
+      "serving": "300ml",
+      "prices": [
+        17,
+        20
+      ],
+      "priceLabels": [
+        "Latte · 300ml",
+        "Strong Latte · 300ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "LATTE / STRONG LATTE 300ML - 17 / 20LEI\nESPRESSO / ESPRESSO DOUBLE + MILK ALLERGEN 7"
+    },
+    {
+      "id": "specialty-coffee-alternative-milk",
+      "categoryId": "specialty-coffee",
+      "name": "Alternative Milk",
+      "description": "Add espresso / espresso double",
+      "serving": "200ml",
+      "prices": [
+        9
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [
+        1,
+        8
+      ],
+      "notes": [],
+      "sourceText": "ALTERNATIVE MILK 200ML - 9LEI\nADD ESPRESSO / ESPRESSO DOUBLE ALLERGEN 1, 8"
+    },
+    {
+      "id": "specialty-coffee-ask-for-extra-shot",
+      "categoryId": "specialty-coffee",
+      "name": "Ask For Extra Shot",
+      "description": "",
+      "serving": "20ml",
+      "prices": [
+        3
+      ],
+      "priceLabels": [
+        "20ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ASK FOR EXTRA SHOT 20ML - 3LEI\n"
+    },
+    {
+      "id": "specialty-coffee-ask-for-extra-milk",
+      "categoryId": "specialty-coffee",
+      "name": "Ask For Extra Milk",
+      "description": "",
+      "serving": "100ml",
+      "prices": [
+        3
+      ],
+      "priceLabels": [
+        "100ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "ASK FOR EXTRA MILK 100ML - 3LEI ALLERGEN 7\n"
+    },
+    {
+      "id": "iced-coffee-espresso-freddo",
+      "categoryId": "iced-coffee",
+      "name": "Espresso Freddo",
+      "description": "Espresso double + ice",
+      "serving": "250ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ESPRESSO FREDDO 250ML - 18LEI\nESPRESSO DOUBLE + ICE"
+    },
+    {
+      "id": "iced-coffee-iced-americano",
+      "categoryId": "iced-coffee",
+      "name": "Iced Americano",
+      "description": "Espresso double + water + ice",
+      "serving": "330ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ICED AMERICANO 330ML - 18LEI\nESPRESSO DOUBLE + WATER + ICE"
+    },
+    {
+      "id": "iced-coffee-cappuccino-freddo",
+      "categoryId": "iced-coffee",
+      "name": "Cappuccino Freddo",
+      "description": "Espresso double + ice + milk",
+      "serving": "330ml",
+      "prices": [
+        20
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "CAPPUCCINO FREDDO 330ML LEI - 20LEI\nESPRESSO DOUBLE + ICE + MILK ALLERGEN 7"
+    },
+    {
+      "id": "iced-coffee-iced-latte",
+      "categoryId": "iced-coffee",
+      "name": "Iced Latte",
+      "description": "Espresso double + ice + milk",
+      "serving": "330ml",
+      "prices": [
+        20
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "ICED LATTE 330ML - 20LEI\nESPRESSO DOUBLE + ICE + MILK ALLERGEN 7"
+    },
+    {
+      "id": "iced-coffee-cold-brew",
+      "categoryId": "iced-coffee",
+      "name": "Cold Brew",
+      "description": "Cold brew + ice",
+      "serving": "250ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "COLD BREW 250ML - 18LEI\nCOLD BREW + ICE"
+    },
+    {
+      "id": "iced-coffee-cold-brew-tonic",
+      "categoryId": "iced-coffee",
+      "name": "Cold Brew Tonic",
+      "description": "Cold brew + three cents tonic + ice",
+      "serving": "250ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "COLD BREW TONIC 250ML - 29LEI\nCOLD BREW + THREE CENTS TONIC + ICE"
+    },
+    {
+      "id": "iced-coffee-espresso-tonic",
+      "categoryId": "iced-coffee",
+      "name": "Espresso Tonic",
+      "description": "Espresso double + three cents tonic + ice",
+      "serving": "250ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ESPRESSO TONIC 250ML - 29LEI\nESPRESSO DOUBLE + THREE CENTS TONIC + ICE"
+    },
+    {
+      "id": "matcha-hot-or-iced-matcha-latte",
+      "categoryId": "matcha",
+      "name": "Hot/Iced Matcha Latte",
+      "description": "Japan matcha bio + milk",
+      "serving": "300ml",
+      "prices": [
+        25
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "HOT/ICED MATCHA LATTE 300ML - 25LEI\nJAPAN MATCHA BIO + MILK ALLERGEN 7"
+    },
+    {
+      "id": "matcha-matcha-japan-ujicha-bio",
+      "categoryId": "matcha",
+      "name": "Matcha Japan Ujicha - BIO",
+      "description": "Green tea matcha from organic cultivation + hot water",
+      "serving": "300ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MATCHA JAPAN UJICHA - BIO 300ML - 18LEI\nGREEN TEA MATCHA FROM ORGANIC CULTIVATION + HOT WATER"
+    },
+    {
+      "id": "matcha-lavender-matcha-latte",
+      "categoryId": "matcha",
+      "name": "Lavender Matcha Latte",
+      "description": "Japan matcha bio + milk + lavender syrup",
+      "serving": "300ml",
+      "prices": [
+        30
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [
+        7
+      ],
+      "notes": [],
+      "sourceText": "LAVENDER MATCHA LATTE 300ML - 30LEI\nJAPAN MATCHA BIO + MILK + LAVENDER SYRUP ALLERGEN 7"
+    },
+    {
+      "id": "tea-i-love-mango",
+      "categoryId": "tea",
+      "name": "I Love Mango",
+      "description": "Mango pieces, pineapple pieces, orange slices, saffron, marigold flowers, strawberry",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "I LOVE MANGO 300ML - 23LEI\nMANGO PIECES, PINEAPPLE PIECES, ORANGE SLICES, SAFFRON, MARIGOLD FLOWERS, STRAWBERRY"
+    },
+    {
+      "id": "tea-miami-ice",
+      "categoryId": "tea",
+      "name": "Miami Ice",
+      "description": "Blackcurrants, hibiscus flowers, apple and papaya pieces, rose flowers, raisins, blackberries, dried and frozen strawberry pieces, cornflowers",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MIAMI ICE 300ML - 23LEI\nBLACKCURRANTS, HIBISCUS FLOWERS, APPLE AND PAPAYA PIECES, ROSE FLOWERS, RAISINS, BLACKBERRIES, DRIED AND FROZEN STRAWBERRY PIECES, CORNFLOWERS"
+    },
+    {
+      "id": "tea-zanzibar-mermaid",
+      "categoryId": "tea",
+      "name": "Zanzibar Mermaid",
+      "description": "Hibiscus blossoms, apple pieces, papaya cubes, currants, elderberries, blackcurrants, dried raspberry and strawberry pieces, sunflower and blue cornflower blossoms",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ZANZIBAR MERMAID 300ML - 23LEI\nHIBISCUS BLOSSOMS, APPLE PIECES, PAPAYA CUBES, CURRANTS, ELDERBERRIES, BLACKCURRANTS, DRIED RASPBERRY AND STRAWBERRY PIECES, SUNFLOWER AND BLUE CORNFLOWER BLOSSOMS"
+    },
+    {
+      "id": "tea-cherry-delight",
+      "categoryId": "tea",
+      "name": "Cherry Delight",
+      "description": "Hibiscus flowers, apple pieces, elderberries, freeze-dried cherry pieces, flavors",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CHERRY DELIGHT 300ML - 23LEI\nHIBISCUS FLOWERS, APPLE PIECES, ELDERBERRIES, FREEZE-DRIED CHERRY PIECES, FLAVORS"
+    },
+    {
+      "id": "tea-blue-blueberry",
+      "categoryId": "tea",
+      "name": "Blue Blueberry",
+      "description": "Pineapple pieces, papaya pieces, mango pieces, hibiscus, apple pieces, sweet blackberry leaves, blueberries, cornflower, natural flavouring, natural cucumber flavouring",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BLUE BLUEBERRY 300ML - 23LEI\nPINEAPPLE PIECES, PAPAYA PIECES, MANGO PIECES, HIBISCUS, APPLE PIECES, SWEET BLACKBERRY LEAVES, BLUEBERRIES, CORNFLOWER, NATURAL FLAVOURING, NATURAL CUCUMBER FLAVOURING"
+    },
+    {
+      "id": "tea-coconut-lavender",
+      "categoryId": "tea",
+      "name": "Coconut Lavender",
+      "description": "Coconut flakes, pineapple pieces,lavender, pea flower",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "COCONUT LAVENDER 300ML - 23LEI\nCOCONUT FLAKES, PINEAPPLE PIECES,LAVENDER, PEA FLOWER"
+    },
+    {
+      "id": "tea-lemonade-tea",
+      "categoryId": "tea",
+      "name": "Lemonade Tea",
+      "description": "Apple pieces, citric acid, freeze-dried lemon pieces, lemon peel, dried red currants, flavors",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEMONADE TEA 300ML - 23LEI\nAPPLE PIECES, CITRIC ACID, FREEZE-DRIED LEMON PIECES, LEMON PEEL, DRIED RED CURRANTS, FLAVORS"
+    },
+    {
+      "id": "tea-yellow-jackfruit-and-passion-fruit",
+      "categoryId": "tea",
+      "name": "Yellow Jackfruit And Passion Fruit",
+      "description": "Mango pieces , papaya pieces, apple pieces, hibiscus, natural flavor, passion fruit granules, physalis, marigold flowers, saffron",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "YELLOW JACKFRUIT AND PASSION FRUIT 300ML - 23LEI\nMANGO PIECES , PAPAYA PIECES, APPLE PIECES, HIBISCUS, NATURAL FLAVOR, PASSION FRUIT GRANULES, PHYSALIS, MARIGOLD FLOWERS, SAFFRON"
+    },
+    {
+      "id": "tea-sakura",
+      "categoryId": "tea",
+      "name": "Sakura",
+      "description": "Green tea, flavors, rose petals",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "SAKURA 300ML - 23LEI\nGREEN TEA, FLAVORS, ROSE PETALS"
+    },
+    {
+      "id": "tea-angels-kiss",
+      "categoryId": "tea",
+      "name": "Angels Kiss",
+      "description": "Green tea, white tea, papaya and pineapple cubes, flavors, rose flowers, freeze-dried strawberry pieces",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ANGELS KISS 300ML - 23LEI\nGREEN TEA, WHITE TEA, PAPAYA AND PINEAPPLE CUBES, FLAVORS, ROSE FLOWERS, FREEZE-DRIED STRAWBERRY PIECES"
+    },
+    {
+      "id": "tea-english-breakfast",
+      "categoryId": "tea",
+      "name": "English Breakfast",
+      "description": "Black tea, caramel bits, cocoa nibs, vanilla pieces",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ENGLISH BREAKFAST 300ML - 23LEI\nBLACK TEA, CARAMEL BITS, COCOA NIBS, VANILLA PIECES"
+    },
+    {
+      "id": "tea-vanilla-supreme",
+      "categoryId": "tea",
+      "name": "Vanilla Supreme",
+      "description": "Golden-tipped assam and a harmonious soft ceylon black tea, bourbon vanilla, spicy vanilla pieces",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "VANILLA SUPREME 300ML - 23LEI\nGOLDEN-TIPPED ASSAM AND A HARMONIOUS SOFT CEYLON BLACK TEA, BOURBON VANILLA, SPICY VANILLA PIECES"
+    },
+    {
+      "id": "tea-caramel-cream",
+      "categoryId": "tea",
+      "name": "Caramel Cream",
+      "description": "Black tea, caramel bits, cocoa nibs, vanilla pieces",
+      "serving": "300ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "300ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CARAMEL CREAM 300ML - 23LEI\nBLACK TEA, CARAMEL BITS, COCOA NIBS, VANILLA PIECES"
+    },
+    {
+      "id": "raw-juice-lemonade-raw",
+      "categoryId": "raw-juice",
+      "name": "Lemonade Raw",
+      "description": "Lemon + honey syrup + filtered water + ice",
+      "serving": "500ml",
+      "prices": [
+        23
+      ],
+      "priceLabels": [
+        "500ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEMONADE RAW 500ML - 23LEI\nLEMON + HONEY SYRUP + FILTERED WATER + ICE"
+    },
+    {
+      "id": "raw-juice-lemonade-mint-or-basil-or-ginger",
+      "categoryId": "raw-juice",
+      "name": "Lemonade Mint / Basil / Ginger",
+      "description": "Lemon + honey syrup + mint / basil / ginger + filtered water + ice",
+      "serving": "500ml",
+      "prices": [
+        25
+      ],
+      "priceLabels": [
+        "500ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEMONADE MINT / BASIL / GINGER 500ML - 25LEI\nLEMON + HONEY SYRUP + MINT / BASIL / GINGER + FILTERED WATER + ICE"
+    },
+    {
+      "id": "raw-juice-lemonade-strawberry-or-mango-or-pineapple",
+      "categoryId": "raw-juice",
+      "name": "Lemonade Strawberry */ Mango* / Pineapple*",
+      "description": "Lemon + honey syrup + pick the fruit* + filtered water + ice",
+      "serving": "500ml",
+      "prices": [
+        27
+      ],
+      "priceLabels": [
+        "500ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Fruit marked * is frozen fruit."
+      ],
+      "sourceText": "LEMONADE STRAWBERRY */ MANGO* / PINEAPPLE* 500ML - 27LEI\nLEMON + HONEY SYRUP + PICK THE FRUIT* + FILTERED WATER + ICE"
+    },
+    {
+      "id": "raw-juice-orange-or-grapefruit-fresh-squeezed",
+      "categoryId": "raw-juice",
+      "name": "Orange / Grapefruit Fresh Squeezed",
+      "description": "Orange / grapefruit + ice",
+      "serving": "330ml",
+      "prices": [
+        25
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ORANGE / GRAPEFRUIT FRESH SQUEEZED 330ML - 25LEI\nORANGE / GRAPEFRUIT + ICE"
+    },
+    {
+      "id": "raw-juice-orange-and-grapefruit-fresh-squeezed",
+      "categoryId": "raw-juice",
+      "name": "Orange+Grapefruit Fresh Squeezed",
+      "description": "Orange + grapefruit + ice",
+      "serving": "330ml",
+      "prices": [
+        25
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ORANGE+GRAPEFRUIT FRESH SQUEEZED 330ML - 25LEI\nORANGE + GRAPEFRUIT + ICE"
+    },
+    {
+      "id": "raw-juice-pineapple-and-orange-and-stawberry",
+      "categoryId": "raw-juice",
+      "name": "Pineapple*+Orange+Strawberry*",
+      "description": "Pineapple* + orange +strawberry* + ice",
+      "serving": "330ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Fruit marked * is frozen fruit."
+      ],
+      "sourceText": "PINEAPPLE*+ORANGE+STAWBERRY* 330ML - 29LEI\nPINEAPPLE* + ORANGE +STRAWBERRY* + ICE"
+    },
+    {
+      "id": "raw-juice-mango-and-orange-and-stawberry",
+      "categoryId": "raw-juice",
+      "name": "Mango*+Orange+Strawberry*",
+      "description": "Mango* + orange + strawberry* + ice",
+      "serving": "330ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Fruit marked * is frozen fruit."
+      ],
+      "sourceText": "MANGO*+ORANGE+STAWBERRY* 330ML - 29LEI\nMANGO* + ORANGE + STRAWBERRY* + ICE"
+    },
+    {
+      "id": "raw-juice-pomegranate-fresh-squeezed",
+      "categoryId": "raw-juice",
+      "name": "Pomegranate Fresh Squeezed",
+      "description": "Pomegranate + ice",
+      "serving": "330ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "POMEGRANATE FRESH SQUEEZED 330ML - 29LEI\nPOMEGRANATE + ICE"
+    },
+    {
+      "id": "raw-juice-pomegranate-and-orange-and-grapefruit",
+      "categoryId": "raw-juice",
+      "name": "Pomegranate+Orange+Grapefruit",
+      "description": "Pomegranate + orange + grapefruit + ice",
+      "serving": "330ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "POMEGRANATE+ORANGE+GRAPEFRUIT 330ML - 29LEI\nPOMEGRANATE + ORANGE + GRAPEFRUIT + ICE"
+    },
+    {
+      "id": "energy-drinks-red-bull-original",
+      "categoryId": "energy-drinks",
+      "name": "Red Bull Original",
+      "description": "",
+      "serving": "250ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "RED BULL ORIGINAL 250ML - 19LEI\n"
+    },
+    {
+      "id": "energy-drinks-red-bull-sugar-free",
+      "categoryId": "energy-drinks",
+      "name": "Red Bull Sugar Free",
+      "description": "",
+      "serving": "250ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "RED BULL SUGAR FREE 250ML - 19LEI\n"
+    },
+    {
+      "id": "energy-drinks-red-bull-red-watermelon",
+      "categoryId": "energy-drinks",
+      "name": "Red Bull Red Watermelon",
+      "description": "",
+      "serving": "250ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "RED BULL RED WATERMELON 250ML - 19LEI\n"
+    },
+    {
+      "id": "soft-drinks-aqua-carpatica-water-fizzy-or-still",
+      "categoryId": "soft-drinks",
+      "name": "Aqua Carpatica Water Fizzy / Still",
+      "description": "",
+      "serving": "330 ml",
+      "prices": [
+        12
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "AQUA CARPATICA WATER FIZZY / STILL 330 ML - 12LEI\n"
+    },
+    {
+      "id": "soft-drinks-pepsi-cola-vintage-or-pepsi-max-0-sugar",
+      "categoryId": "soft-drinks",
+      "name": "Pepsi Cola Vintage / Pepsi Max 0% Sugar",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        15
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PEPSI COLA VINTAGE / PEPSI MAX 0% SUGAR 330ML - 15LEI\n"
+    },
+    {
+      "id": "soft-drinks-mirinda-or-7up-or-evervess",
+      "categoryId": "soft-drinks",
+      "name": "Mirinda / 7Up / Evervess",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        15
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MIRINDA / 7UP / EVERVESS 330ML - 15LEI\n"
+    },
+    {
+      "id": "soft-drinks-rockstar-original",
+      "categoryId": "soft-drinks",
+      "name": "Rockstar Original",
+      "description": "",
+      "serving": "250ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "250ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ROCKSTAR ORIGINAL 250ML - 19LEI\n"
+    },
+    {
+      "id": "soft-drinks-sipit-zmeura-si-lyche",
+      "categoryId": "soft-drinks",
+      "name": "Sipit Zmeura Si Lyche",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "SIPIT ZMEURA SI LYCHE 330ML - 24LEI\n"
+    },
+    {
+      "id": "soft-drinks-sipit-pepene-rosu-si-menta",
+      "categoryId": "soft-drinks",
+      "name": "Sipit Pepene Rosu Si Menta",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "SIPIT PEPENE ROSU SI MENTA 330ML - 24LEI\n"
+    },
+    {
+      "id": "soft-drinks-sipit-prune-smochine-si-cocos",
+      "categoryId": "soft-drinks",
+      "name": "Sipit Prune, Smochine Si Cocos",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "SIPIT PRUNE, SMOCHINE SI COCOS 330ML - 24LEI\n"
+    },
+    {
+      "id": "soft-drinks-soculent-original",
+      "categoryId": "soft-drinks",
+      "name": "Soculent Original",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "SOCULENT ORIGINAL 330ML - 19LEI\n"
+    },
+    {
+      "id": "soft-drinks-soculent-pepene",
+      "categoryId": "soft-drinks",
+      "name": "Soculent Pepene",
+      "description": "",
+      "serving": "330ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "330ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "SOCULENT PEPENE 330ML - 19LEI\n"
+    },
+    {
+      "id": "soft-drinks-three-cents-ginger-beer-200ml-0-alc",
+      "categoryId": "soft-drinks",
+      "name": "Three Cents Ginger Beer 200Ml - 0%Alc",
+      "description": "",
+      "serving": "",
+      "prices": [
+        22
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "THREE CENTS GINGER BEER 200ML - 0%ALC - 22LEI\n"
+    },
+    {
+      "id": "soft-drinks-three-cents-cherry-soda",
+      "categoryId": "soft-drinks",
+      "name": "Three Cents Cherry Soda",
+      "description": "",
+      "serving": "200ml",
+      "prices": [
+        22
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "THREE CENTS CHERRY SODA 200ML - 22LEI\n"
+    },
+    {
+      "id": "soft-drinks-three-cents-mandarin-bergamot",
+      "categoryId": "soft-drinks",
+      "name": "Three Cents Mandarin & Bergamot",
+      "description": "",
+      "serving": "200ml",
+      "prices": [
+        22
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "THREE CENTS MANDARIN & BERGAMOT 200ML - 22LEI\n"
+    },
+    {
+      "id": "soft-drinks-three-cents-pink-grapefruit",
+      "categoryId": "soft-drinks",
+      "name": "Three Cents Pink Grapefruit",
+      "description": "",
+      "serving": "200ml",
+      "prices": [
+        22
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "THREE CENTS PINK GRAPEFRUIT 200ML - 22LEI\n"
+    },
+    {
+      "id": "soft-drinks-three-cents-tonic-water",
+      "categoryId": "soft-drinks",
+      "name": "Three Cents Tonic Water",
+      "description": "",
+      "serving": "200ml",
+      "prices": [
+        22
+      ],
+      "priceLabels": [
+        "200ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "THREE CENTS TONIC WATER 200ML - 22LEI\n"
+    },
+    {
+      "id": "beer-on-tap-becks",
+      "categoryId": "beer-on-tap",
+      "name": "Becks",
+      "description": "Pilsner - 5.0%alc - germany",
+      "serving": "400 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "400 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BECKS - 18LEI\n400ML - PILSNER - 5.0%ALC - GERMANY"
+    },
+    {
+      "id": "beer-on-tap-caraiman",
+      "categoryId": "beer-on-tap",
+      "name": "Caraiman",
+      "description": "Lager - 5.0%alc",
+      "serving": "400 ml",
+      "prices": [
+        16
+      ],
+      "priceLabels": [
+        "400 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CARAIMAN - 16LEI\n400ML - LAGER - 5.0%ALC"
+    },
+    {
+      "id": "beer-on-tap-madri-excepcional",
+      "categoryId": "beer-on-tap",
+      "name": "Madri Excepcional",
+      "description": "Lager - 4.6%alc - spain",
+      "serving": "300 ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "300 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MADRI EXCEPCIONAL - 19LEI\n300ML - LAGER - 4.6%ALC - SPAIN"
+    },
+    {
+      "id": "beer-on-tap-franziskaner",
+      "categoryId": "beer-on-tap",
+      "name": "Franziskaner",
+      "description": "Weisbier - 5.0%alc - germany",
+      "serving": "500 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "500 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "FRANZISKANER - 24LEI\n500ML - WEISBIER - 5.0%ALC - GERMANY"
+    },
+    {
+      "id": "beer-on-tap-hoegaarden",
+      "categoryId": "beer-on-tap",
+      "name": "Hoegaarden",
+      "description": "Wheat beer - 4.9% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "HOEGAARDEN - 24LEI\n330ML - WHEAT BEER - 4.9% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-on-tap-leffe-blonde",
+      "categoryId": "beer-on-tap",
+      "name": "Leffe Blonde",
+      "description": "Belgian witbier - 6.6% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEFFE BLONDE - 24LEI\n330ML - BELGIAN WITBIER - 6.6% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-on-tap-leffe-brown",
+      "categoryId": "beer-on-tap",
+      "name": "Leffe Brown",
+      "description": "Belgian ale - 6.6% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEFFE BROWN - 24LEI\n330ML - BELGIAN ALE - 6.6% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-on-tap-stella-artois",
+      "categoryId": "beer-on-tap",
+      "name": "Stella Artois",
+      "description": "Lager - 5.0% alct - belgium",
+      "serving": "400 ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "400 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "STELLA ARTOIS - 19LEI\n400ML - LAGER - 5.0% ALCt - BELGIUM"
+    },
+    {
+      "id": "beer-bottles-becks",
+      "categoryId": "beer-bottles",
+      "name": "Becks",
+      "description": "Pilsner - 5.0%alc - germany",
+      "serving": "Bottle",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "Bottle"
+      ],
+      "allergens": [],
+      "notes": [
+        "Bottle size: please ask at the bar."
+      ],
+      "sourceText": "BECKS - 18LEI\n3300ML - PILSNER - 5.0%ALC - GERMANY"
+    },
+    {
+      "id": "beer-bottles-caraiman",
+      "categoryId": "beer-bottles",
+      "name": "Caraiman",
+      "description": "Lager - 5.0%alc",
+      "serving": "330 ml",
+      "prices": [
+        16
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CARAIMAN - 16LEI\n330ML - LAGER - 5.0%ALC"
+    },
+    {
+      "id": "beer-bottles-madri-excepcional",
+      "categoryId": "beer-bottles",
+      "name": "Madri Excepcional",
+      "description": "Lager - 4.6%alc - spain",
+      "serving": "330 ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MADRI EXCEPCIONAL - 19LEI\n330ML - LAGER - 4.6%ALC - SPAIN"
+    },
+    {
+      "id": "beer-bottles-franziskaner",
+      "categoryId": "beer-bottles",
+      "name": "Franziskaner",
+      "description": "Weisbier - 5.0%alc - germany",
+      "serving": "500 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "500 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "FRANZISKANER - 24LEI\n500ML - WEISBIER - 5.0%ALC - GERMANY"
+    },
+    {
+      "id": "beer-bottles-hoegaarden",
+      "categoryId": "beer-bottles",
+      "name": "Hoegaarden",
+      "description": "Wheat beer - 4.9% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "HOEGAARDEN - 24LEI\n330ML - WHEAT BEER - 4.9% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-bottles-corona-or-0-0",
+      "categoryId": "beer-bottles",
+      "name": "Corona / 0.0%",
+      "description": "Cerveza - 4.5% alc / 330ml - cerveza - 0.0% alc - mexic",
+      "serving": "330 ml",
+      "prices": [
+        24,
+        24
+      ],
+      "priceLabels": [
+        "Corona · 330 ml",
+        "0.0% · 330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CORONA / 0.0% - 24 / 24LEI\n330ML - CERVEZA - 4.5% ALC / 330ML - CERVEZA - 0.0% ALC - MEXIC"
+    },
+    {
+      "id": "beer-bottles-4-and-1-corona-bucket-combo",
+      "categoryId": "beer-bottles",
+      "name": "4+1 Corona Bucket Combo",
+      "description": "Cerveza - 4.5% alc - mexic",
+      "serving": "330 ml",
+      "prices": [
+        96
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "4+1 CORONA BUCKET COMBO - 96LEI\n330ML - CERVEZA - 4.5% ALC - MEXIC"
+    },
+    {
+      "id": "beer-bottles-miller",
+      "categoryId": "beer-bottles",
+      "name": "Miller",
+      "description": "Lager - 4.7% alc - usa",
+      "serving": "330 ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MILLER - 19LEI\n330ML - LAGER - 4.7% ALC - USA"
+    },
+    {
+      "id": "beer-bottles-leffe-blonde",
+      "categoryId": "beer-bottles",
+      "name": "Leffe Blonde",
+      "description": "Belgian witbier - 6.6% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEFFE BLONDE - 24LEI\n330ML - BELGIAN WITBIER - 6.6% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-bottles-leffe-brown",
+      "categoryId": "beer-bottles",
+      "name": "Leffe Brown",
+      "description": "Belgian ale - 6.6% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LEFFE BROWN - 24LEI\n330ML - BELGIAN ALE - 6.6% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-bottles-stella-artois-or-0-0",
+      "categoryId": "beer-bottles",
+      "name": "Stella Artois / 0.0%",
+      "description": "Lager - 5.0% alc / 330ml - lager - 0.0% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        19,
+        19
+      ],
+      "priceLabels": [
+        "Stella Artois · 330 ml",
+        "0.0% · 330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "STELLA ARTOIS / 0.0% - 19 / 19LEI\n330ML - LAGER - 5.0% ALC / 330ML - LAGER - 0.0% ALC - BELGIUM"
+    },
+    {
+      "id": "beer-bottles-staropramen-blonde-or-dark",
+      "categoryId": "beer-bottles",
+      "name": "Staropramen Blonde / Dark",
+      "description": "Lager - 5.0% alc / 330ml - lager - 4.4% alc - belgium",
+      "serving": "330 ml",
+      "prices": [
+        19
+      ],
+      "priceLabels": [
+        "330 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "STAROPRAMEN BLONDE / DARK - 19LEI\n330ML - LAGER - 5.0% ALC / 330ML - LAGER - 4.4% ALC - BELGIUM"
+    },
+    {
+      "id": "shots-bumbu-original-or-cream",
+      "categoryId": "shots",
+      "name": "Bumbu Original / Cream",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BUMBU ORIGINAL / CREAM - 24LEI\n"
+    },
+    {
+      "id": "shots-havana-spiced",
+      "categoryId": "shots",
+      "name": "Havana Spiced",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "HAVANA SPICED - 18LEI\n"
+    },
+    {
+      "id": "shots-absolut-vodka-or-tabasco-or-vanilla",
+      "categoryId": "shots",
+      "name": "Absolut Vodka / Tabasco / Vanilla",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ABSOLUT VODKA / TABASCO / VANILLA - 18LEI\n"
+    },
+    {
+      "id": "shots-altos-reposado",
+      "categoryId": "shots",
+      "name": "Altos Reposado",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ALTOS REPOSADO - 18LEI\n"
+    },
+    {
+      "id": "shots-avion-reposado",
+      "categoryId": "shots",
+      "name": "Avion Reposado",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "AVION REPOSADO - 24LEI\n"
+    },
+    {
+      "id": "shots-del-maguey-vida-mezcal",
+      "categoryId": "shots",
+      "name": "Del Maguey Vida - Mezcal",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        26
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "DEL MAGUEY VIDA - MEZCAL - 26LEI\n"
+    },
+    {
+      "id": "shots-plymouth-sloe-gin",
+      "categoryId": "shots",
+      "name": "Plymouth Sloe Gin",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        24
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PLYMOUTH SLOE GIN - 24LEI\n"
+    },
+    {
+      "id": "shots-jagermeister",
+      "categoryId": "shots",
+      "name": "Jagermeister",
+      "description": "",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "JAGERMEISTER - 18LEI\n"
+    },
+    {
+      "id": "shots-b52",
+      "categoryId": "shots",
+      "name": "B52",
+      "description": "Kahlua + carolans + cointreau",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "B52 - 18LEI\nKAHLUA + CAROLANS + COINTREAU"
+    },
+    {
+      "id": "shots-godfather",
+      "categoryId": "shots",
+      "name": "Godfather",
+      "description": "Jameson caskmates + amaretto",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "GODFATHER - 18LEI\nJAMESON CASKMATES + AMARETTO"
+    },
+    {
+      "id": "shots-kamikaze",
+      "categoryId": "shots",
+      "name": "Kamikaze",
+      "description": "Absolut + triple sec + lime juice",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Minimum order: 3 shots."
+      ],
+      "sourceText": "KAMIKAZE - MIN. 3 - 18LEI\nABSOLUT + TRIPLE SEC + LIME JUICE"
+    },
+    {
+      "id": "shots-amaretto-sour",
+      "categoryId": "shots",
+      "name": "Amaretto Sour",
+      "description": "Amaretto + lime juice",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Minimum order: 3 shots."
+      ],
+      "sourceText": "AMARETTO SOUR - MIN. 3 - 18LEI\nAMARETTO + LIME JUICE"
+    },
+    {
+      "id": "shots-chupa-chups",
+      "categoryId": "shots",
+      "name": "Chupa Chups",
+      "description": "Dekuyper banana + absolut + pfanner pineapple juice",
+      "serving": "30 ml",
+      "prices": [
+        18
+      ],
+      "priceLabels": [
+        "30 ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Minimum order: 3 shots."
+      ],
+      "sourceText": "CHUPA CHUPS - MIN 3 - 18LEI\nDEKUYPER BANANA + ABSOLUT + PFANNER PINNEAPLE JUICE"
+    },
+    {
+      "id": "urbanist-specials-urbanist-gin-tonic",
+      "categoryId": "urbanist-specials",
+      "name": "Urbanist Gin Tonic",
+      "description": "40ml mcqueen ultraviolet fog + three cents tonic pink grapefruit + lime",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "URBANIST GIN TONIC - 45LEI\n40ML MCQUEEN ULTRAVIOLET FOG + THREE CENTS TONIC PINK GRAPEFRUIT + LIME"
+    },
+    {
+      "id": "urbanist-specials-urbanist-cuba-libre",
+      "categoryId": "urbanist-specials",
+      "name": "Urbanist Cuba Libre",
+      "description": "40ml bumbu og + pepsi + lime",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "URBANIST CUBA LIBRE - 45LEI\n40ML BUMBU OG + PEPSI + LIME"
+    },
+    {
+      "id": "urbanist-specials-urbanist-mai-tai",
+      "categoryId": "urbanist-specials",
+      "name": "Urbanist Mai Tai",
+      "description": "20ml bumbu xo + 20ml havana spiced + 20ml amaretto + 20ml passoa + lime",
+      "serving": "",
+      "prices": [
+        48
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "URBANIST MAI TAI - 48LEI\n20ML BUMBU XO + 20ML HAVANA SPICED + 20ML AMARETTO + 20ML PASSOA + LIME"
+    },
+    {
+      "id": "urbanist-specials-bumbu-cherry",
+      "categoryId": "urbanist-specials",
+      "name": "Bumbu Cherry",
+      "description": "40ml bumbu og + three cents tonic cherry soda",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BUMBU CHERRY - 45LEI\n40ML BUMBU OG + THREE CENTS TONIC CHERRY SODA"
+    },
+    {
+      "id": "urbanist-specials-watermelon-gin-bull",
+      "categoryId": "urbanist-specials",
+      "name": "Watermelon Gin Bull",
+      "description": "40ml mcqueen ultraviolet fog + red bull watermelon + lime",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "WATERMELON GIN BULL - 45LEI\n40ML MCQUEEN ULTRAVIOLET FOG + RED BULL WATERMELON + LIME"
+    },
+    {
+      "id": "cocktails-gin-tonic",
+      "categoryId": "cocktails",
+      "name": "Gin Tonic",
+      "description": "40ml plymouth gin + evervess tonic + lime",
+      "serving": "",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "GIN TONIC - 38LEI\n40ML PLYMOUTH GIN + EVERVESS TONIC + LIME"
+    },
+    {
+      "id": "cocktails-cuba-libre",
+      "categoryId": "cocktails",
+      "name": "Cuba Libre",
+      "description": "40ml havana spiced + pepsi cola + lime",
+      "serving": "",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CUBA LIBRE - 38LEI\n40ML HAVANA SPICED + PEPSI COLA + LIME"
+    },
+    {
+      "id": "cocktails-dark-n-stormy",
+      "categoryId": "cocktails",
+      "name": "Dark ‘N Stormy",
+      "description": "40ml bumbu xo + three cents ginger beer + lime",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "DARK ‘N STORMY - 43LEI\n40ML BUMBU XO + THREE CENTS GINGER BEER + LIME"
+    },
+    {
+      "id": "cocktails-negroni",
+      "categoryId": "cocktails",
+      "name": "Negroni",
+      "description": "30ml plymouth gin + 30ml petroni vermu + 30ml campari",
+      "serving": "",
+      "prices": [
+        48
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "NEGRONI - 48LEI\n30ML PLYMOUTH GIN + 30ML PETRONI VERMU + 30ML CAMPARI"
+    },
+    {
+      "id": "cocktails-pornstar-martini",
+      "categoryId": "cocktails",
+      "name": "Pornstar Martini",
+      "description": "40ml absolut vanilla + 30ml passoa + passion fruit puree + lime",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PORNSTAR MARTINI - 45LEI\n40ML ABSOLUT VANILLA + 30ML PASSOA + PASSION FRUIT PUREE + LIME"
+    },
+    {
+      "id": "cocktails-moscow-mule",
+      "categoryId": "cocktails",
+      "name": "Moscow Mule",
+      "description": "40ml absolut + three cents ginger beer + lime",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MOSCOW MULE - 43LEI\n40ML ABSOLUT + THREE CENTS GINGER BEER + LIME"
+    },
+    {
+      "id": "cocktails-amaretto-sour",
+      "categoryId": "cocktails",
+      "name": "Amaretto Sour",
+      "description": "40ml amaretto + lime juice + fee brothers foam",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "AMARETTO SOUR - 43LEI\n40ML AMARETTO + LIME JUICE + FEE BROTHERS FOAM"
+    },
+    {
+      "id": "cocktails-espresso-martini",
+      "categoryId": "cocktails",
+      "name": "Espresso Martini",
+      "description": "40ml absolut vanilla + 30m kahlua + espresso + fee brothers foam",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ESPRESSO MARTINI - 43LEI\n40ML ABSOLUT VANILLA + 30M KAHLUA + ESPRESSO + FEE BROTHERS FOAM"
+    },
+    {
+      "id": "cocktails-cuban-mojito",
+      "categoryId": "cocktails",
+      "name": "Cuban Mojito",
+      "description": "40ml havana 3 yrs + sugar syrup + lime + fresh mint",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CUBAN MOJITO - 43LEI\n40ML HAVANA 3 YRS + SUGAR SYRUP + LIME + FRESH MINT"
+    },
+    {
+      "id": "cocktails-old-fashioned",
+      "categoryId": "cocktails",
+      "name": "Old Fashioned",
+      "description": "40ml deacon blended scotch + sugar + fee brothers aromatic bitter",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "OLD FASHIONED - 43LEI\n40ML DEACON BLENDED SCOTCH + SUGAR + FEE BROTRHERS AROMATIC BITTER"
+    },
+    {
+      "id": "cocktails-long-island-original",
+      "categoryId": "cocktails",
+      "name": "Long Island Original",
+      "description": "20ml mcqueen ultraviolet fog + 20ml absolut + 20ml havana 3 + 20ml altos plata + 20ml triple sec + pepsi + lime",
+      "serving": "",
+      "prices": [
+        48
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LONG ISLAND ORIGINAL - 48LEI\n20ML MCQUEEN ULTRAVIOLET FOG + 20ML ABSOLUT + 20ML HAVANA 3 + 20ML ALTOS PLATA + 20ML TRIPLE SEC + PEPSI + LIME"
+    },
+    {
+      "id": "cocktails-mezcalita",
+      "categoryId": "cocktails",
+      "name": "Mezcalita",
+      "description": "40ml del vida maguey + 30ml triple sec + lime juice + salted rim",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MEZCALITA - 45LEI\n40ML DEL VIDA MAGUEY + 30ML TRIPLE SEC + LIME JUICE + SALTED RIM"
+    },
+    {
+      "id": "cocktails-mezcal-mule",
+      "categoryId": "cocktails",
+      "name": "Mezcal Mule",
+      "description": "40ml del vida maguey + three cents ginger beer + lime juice + salted rim",
+      "serving": "",
+      "prices": [
+        45
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MEZCAL MULE - 45LEI\n40ML DEL VIDA MAGUEY + THREE CENTS GINGER BEER + LIME JUICE + SALTED RIM"
+    },
+    {
+      "id": "cocktails-margarita",
+      "categoryId": "cocktails",
+      "name": "Margarita",
+      "description": "40ml altos plata + 30ml triple sec + lime juice + salted rim",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MARGARITA - 43LEI\n40ML ALTOS PLATA + 30ML TRIPLE SEC + LIME JUICE + SALTED RIM"
+    },
+    {
+      "id": "cocktails-paloma",
+      "categoryId": "cocktails",
+      "name": "Paloma",
+      "description": "40ml altos plata + three cents tonic pink grapefruit + lime juice + salted rim",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PALOMA - 43LEI\n40ML ALTOS PLATA + THREE CENTS TONIC PINK GRAPEFRUIT + LIME JUICE + SALTED RIM"
+    },
+    {
+      "id": "cocktails-basil-smash",
+      "categoryId": "cocktails",
+      "name": "Basil Smash",
+      "description": "40ml plymouth gin + basil + lime + sugar syrup",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BASIL SMASH - 43LEI\n40ML PLYMOUTH GIN + BASIL + LIME + SUGAR SYRUP"
+    },
+    {
+      "id": "cocktails-mimosa",
+      "categoryId": "cocktails",
+      "name": "Mimosa",
+      "description": "125ml luc belaire brut gold + pfanner orange juice",
+      "serving": "",
+      "prices": [
+        48
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MIMOSA - 48LEI\n125ML LUC BELAIRE BRUT GOLD + PFANNER ORANGE JUICE"
+    },
+    {
+      "id": "cocktails-hugo",
+      "categoryId": "cocktails",
+      "name": "Hugo",
+      "description": "125ml prosecco maschio extra dry + 40ml de kuyper elderflower + fizzy + lime + fresh mint",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "HUGO - 43LEI\n125ML PROSECCO MASCHIO EXTRA DRY + 40ML DE KUYPER ELDERFLOWER + FIZZY + LIME + FRESH MINT"
+    },
+    {
+      "id": "cocktails-petroni-aperitivo-spritz",
+      "categoryId": "cocktails",
+      "name": "Petroni Aperitivo Spritz",
+      "description": "125ml prosecco maschio extra dry + 40ml petroni aperitivo + fizzy",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PETRONI APERITIVO SPRITZ - 43LEI\n125ML PROSECCO MASCHIO EXTRA DRY + 40ML PETRONI APERITIVO + FIZZY"
+    },
+    {
+      "id": "cocktails-italicus-spritz",
+      "categoryId": "cocktails",
+      "name": "Italicus Spritz",
+      "description": "125ml prosecco maschio extra dry + 40ml italicus",
+      "serving": "",
+      "prices": [
+        43
+      ],
+      "priceLabels": [
+        "Per item"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ITALICUS SPRITZ - 43LEI\n125ML PROSECCO MASCHIO EXTRA DRY + 40ML ITALICUS"
+    },
+    {
+      "id": "cocktails-red-bull-long",
+      "categoryId": "cocktails",
+      "name": "Red Bull Long",
+      "description": "Choose type of red bull + choose type of alcohol - vodka / gin / whiskey / liqueur / aperitif",
+      "serving": "",
+      "prices": [],
+      "priceLabels": [],
+      "allergens": [],
+      "notes": [
+        "Price: please ask at the bar."
+      ],
+      "sourceText": "RED BULL LONG\nCHOOSE TYPE OF RED BULL + CHOOSE TYPE OF ALCOHOL - VODKA / GIN / WHISKEY / LIQUEUR / APERITIF"
+    },
+    {
+      "id": "wines-purcari-chardonnay",
+      "categoryId": "wines",
+      "name": "Purcari Chardonnay",
+      "description": "White dry - chardonnay - 12% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        29,
+        149
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PURCARI CHARDONNAY - 29 / 149LEI\nWHITE DRY - CHARDONNAY - 12% ALC"
+    },
+    {
+      "id": "wines-liliac-tandem-cuvee-alb",
+      "categoryId": "wines",
+      "name": "Liliac Tandem Cuvee Alb",
+      "description": "White dry - sauvignon blanc / feteasca regala - 13% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        29,
+        149
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LILIAC TANDEM CUVEE ALB - 29 / 149LEI\nWHITE DRY - SAUVIGNON BLANC / FETEASCA REGALA - 13% ALC"
+    },
+    {
+      "id": "wines-purcari-rose",
+      "categoryId": "wines",
+      "name": "Purcari Rose",
+      "description": "Rose dry - cabernet sauv / merlot / rara neagra - 13.5% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        29,
+        149
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PURCARI ROSE - 29 / 149LEI\nROSE DRY - CABERNET SAUV / MERLOT / RARA NEAGRA - 13.5% ALC"
+    },
+    {
+      "id": "wines-liliac-tandem-rose",
+      "categoryId": "wines",
+      "name": "Liliac Tandem Rose",
+      "description": "Rose semi dry - merlot - 12,5 % alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        29,
+        149
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LILIAC TANDEM ROSE - 29 / 149LEI\nROSE SEMI DRY - MERLOT - 12,5 % ALC"
+    },
+    {
+      "id": "wines-purcari-cabernet-sauvignon",
+      "categoryId": "wines",
+      "name": "Purcari Cabernet Sauvignon",
+      "description": "Red dry - cabernet sauvignon - 12.5% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        34,
+        169
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PURCARI CABERNET SAUVIGNON - 34 / 169LEI\nRED DRY - CABERNET SAUVIGNON - 12.5% ALC"
+    },
+    {
+      "id": "wines-liliac-red-cuvee",
+      "categoryId": "wines",
+      "name": "Liliac Red Cuvee",
+      "description": "Red dry - feteasca neagra / merlot - 14.5% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        34,
+        169
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LILIAC RED CUVEE - 34 / 169LEI\nRED DRY - FETEASCA NEAGRA / MERLOT - 14.5% ALC"
+    },
+    {
+      "id": "wines-maschio-prosecco-extra-dry",
+      "categoryId": "wines",
+      "name": "Maschio Prosecco Extra Dry",
+      "description": "Extra dry - doc veneto - 11.5% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        29,
+        149
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MASCHIO PROSECCO EXTRA DRY - 29 / 149LEI\nEXTRA DRY - DOC VENETO - 11.5% ALC"
+    },
+    {
+      "id": "wines-luc-belaire-brut-gold",
+      "categoryId": "wines",
+      "name": "Luc Belaire Brut Gold",
+      "description": "Brut sparkling wine - 12.5% alc",
+      "serving": "125 / 750 ml",
+      "prices": [
+        43,
+        219
+      ],
+      "priceLabels": [
+        "Glass · 125 ml",
+        "Bottle · 750 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LUC BELAIRE BRUT GOLD - 43 / 219LEI\nBRUT SPARKLING WINE - 12.5% ALC"
+    },
+    {
+      "id": "wines-luc-belaire-fantome-rose",
+      "categoryId": "wines",
+      "name": "Luc Belaire Fantome Rose",
+      "description": "Brut sparkling wine - 12.5% alc - only bottlee",
+      "serving": "750 ml bottle",
+      "prices": [
+        390
+      ],
+      "priceLabels": [
+        "750 ml bottle"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "LUC BELAIRE FANTOME ROSE - 390LEI\nBRUT SPARKLING WINE - 12.5% ALC - ONLY BOTTLEE"
+    },
+    {
+      "id": "gin-mcqueen-ultraviolet-fog",
+      "categoryId": "gin",
+      "name": "Mcqueen Ultraviolet Fog",
+      "description": "42% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MCQUEEN ULTRAVIOLET FOG 42% ALC - 38LEI\n"
+    },
+    {
+      "id": "gin-plymouth-or-sloe",
+      "categoryId": "gin",
+      "name": "Plymouth / Sloe",
+      "description": "41.2% /26% alc",
+      "serving": "40 ml",
+      "prices": [
+        34
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PLYMOUTH / SLOE 41.2% /26% ALC - 34LEI\n"
+    },
+    {
+      "id": "gin-hendricks",
+      "categoryId": "gin",
+      "name": "Hendricks",
+      "description": "41.4% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "HENDRICKS 41.4% ALC - 38LEI\n"
+    },
+    {
+      "id": "gin-monkey-47-or-sloe",
+      "categoryId": "gin",
+      "name": "Monkey 47/Sloe",
+      "description": "47% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "MONKEY 47/SLOE 47% ALC - 38LEI\n"
+    },
+    {
+      "id": "gin-ki-no-bi",
+      "categoryId": "gin",
+      "name": "Ki.No.Bi",
+      "description": "45.7% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "KI.NO.BI 45.7% ALC - 38LEI\n"
+    },
+    {
+      "id": "rum-havana-especial-or-spiced",
+      "categoryId": "rum",
+      "name": "Havana Especial / Spiced",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "HAVANA ESPECIAL / SPICED 40% ALC - 29LEI\n"
+    },
+    {
+      "id": "rum-bumbu-original",
+      "categoryId": "rum",
+      "name": "Bumbu Original",
+      "description": "40% alc / cream caraibbean 15% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "BUMBU ORIGINAL 40% ALC / CREAM CARAIBBEAN 15% ALC - 38LEI\n"
+    },
+    {
+      "id": "vodka-absolut-blue",
+      "categoryId": "vodka",
+      "name": "Absolut Blue",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ABSOLUT BLUE 40% ALC - 29LEI\n"
+    },
+    {
+      "id": "vodka-ostoya-black",
+      "categoryId": "vodka",
+      "name": "Ostoya Black",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "OSTOYA BLACK 40% ALC - 38LEI\n"
+    },
+    {
+      "id": "whiskey-jameson-caskmates-irish-whiskey",
+      "categoryId": "whiskey",
+      "name": "Jameson Caskmates - Irish Whiskey",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "JAMESON CASKMATES - IRISH WHISKEY - 40% ALC - 29LEI\n"
+    },
+    {
+      "id": "whiskey-deacon-blended-scotch",
+      "categoryId": "whiskey",
+      "name": "Deacon - Blended Scotch",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "DEACON - BLENDED SCOTCH - 40% ALC - 38LEI\n"
+    },
+    {
+      "id": "whiskey-chivas-12-yo-blended-scotch-whiskey",
+      "categoryId": "whiskey",
+      "name": "Chivas 12 Yo - Blended Scotch Whiskey",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "CHIVAS 12 YO - BLENDED SCOTCH WHISKEY - 40% ALC - 38LEI\n"
+    },
+    {
+      "id": "whiskey-the-glenlivet-15-yo-single-malt-scotch-whiskey",
+      "categoryId": "whiskey",
+      "name": "The Glenlivet 15 Yo - Single Malt Scotch Whiskey",
+      "description": "40% alc",
+      "serving": "40 ml",
+      "prices": [
+        44
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "THE GLENLIVET 15 YO - SINGLE MALT SCOTCH WHISKEY - 40% ALC - 44LEI\n"
+    },
+    {
+      "id": "tequila-altos-reposado",
+      "categoryId": "tequila",
+      "name": "Altos Reposado",
+      "description": "100% agave - 38% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "ALTOS REPOSADO - 100% AGAVE - 38% ALC - 29LEI\n"
+    },
+    {
+      "id": "tequila-avion-reposado",
+      "categoryId": "tequila",
+      "name": "Avion Reposado",
+      "description": "100% agave pure - 40% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "AVION REPOSADO - 100% AGAVE PURE - 40% ALC - 38LEI\n"
+    },
+    {
+      "id": "tequila-del-maguey-vida-mezcal",
+      "categoryId": "tequila",
+      "name": "Del Maguey Vida - Mezcal",
+      "description": "42% alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "DEL MAGUEY VIDA - MEZCAL - 42% ALC - 38LEI\n"
+    },
+    {
+      "id": "aperitif-petroni-aperitivo",
+      "categoryId": "aperitif",
+      "name": "Petroni Aperitivo",
+      "description": "11% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PETRONI APERITIVO 11% ALC - 29LEI\n"
+    },
+    {
+      "id": "aperitif-petroni-vermu",
+      "categoryId": "aperitif",
+      "name": "Petroni Vermu",
+      "description": "15% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PETRONI VERMU 15% ALC - 29LEI\n"
+    },
+    {
+      "id": "other-spirits-disaronno-amaretto",
+      "categoryId": "other-spirits",
+      "name": "Disaronno Amaretto",
+      "description": "24% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "DISARONNO AMARETTO 24% ALC - 29LEI\n"
+    },
+    {
+      "id": "other-spirits-villon",
+      "categoryId": "other-spirits",
+      "name": "Villon",
+      "description": "40%alc",
+      "serving": "40 ml",
+      "prices": [
+        38
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "VILLON 40%ALC - 38LEI\n"
+    },
+    {
+      "id": "other-spirits-pernod-absinthe",
+      "categoryId": "other-spirits",
+      "name": "Pernod Absinthe",
+      "description": "68% alc",
+      "serving": "40 ml",
+      "prices": [
+        34
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "PERNOD ABSINTHE 68% ALC - 34LEI\n"
+    },
+    {
+      "id": "other-spirits-jagermeister",
+      "categoryId": "other-spirits",
+      "name": "Jagermeister",
+      "description": "35% alc",
+      "serving": "40 ml",
+      "prices": [
+        29
+      ],
+      "priceLabels": [
+        "40 ml"
+      ],
+      "allergens": [],
+      "notes": [],
+      "sourceText": "JAGERMEISTER 35% ALC - 29LEI\n"
+    },
+    {
+      "id": "mixers-long-standard",
+      "categoryId": "mixers",
+      "name": "Long Standard",
+      "description": "Pepsi cola / evervess tonic / pfanner orange / cranberry / apple / pineapple / aqua carpatica carbo",
+      "serving": "200 ml",
+      "prices": [
+        12
+      ],
+      "priceLabels": [
+        "200 ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Mixer supplement; the spirit is priced separately."
+      ],
+      "sourceText": "LONG STANDARD - 12LEI\nPEPSI COLA / EVERVESS TONIC / PFANNER ORANGE / CRANBERRY / APPLE / PINEAPPLE / AQUA CARPATICA CARBO"
+    },
+    {
+      "id": "mixers-long-premium",
+      "categoryId": "mixers",
+      "name": "Long Premium",
+      "description": "Three cents ginger beer, cherry soda / mandarin & bergamot / pink grapefruit / tonic water",
+      "serving": "200 ml",
+      "prices": [
+        22
+      ],
+      "priceLabels": [
+        "200 ml"
+      ],
+      "allergens": [],
+      "notes": [
+        "Mixer supplement; the spirit is priced separately."
+      ],
+      "sourceText": "LONG PREMIUM - 22LEI\nTHREE CENTS GINGER BEER, CHERRY SODA / MANDARIN & BERGAMOT / PINK GRAPEFRUIT / TONIC WATER"
+    }
+  ]
+}
