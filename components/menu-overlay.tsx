@@ -36,7 +36,7 @@ export default function MenuOverlay() {
   animation.current?.kill(); dialog.current?.close(); setOpen(false); document.body.style.overflow = oldOverflow.current;
  }
  return <>
-  <button ref={trigger} onClick={show} className="overlay-trigger" aria-haspopup="dialog" aria-expanded={open}><span>Explore</span><span className="menu-bars" aria-hidden="true"><i/><i/></span></button>
+  <button ref={trigger} onClick={show} className="overlay-trigger" aria-label="Explore The Urbanist" aria-haspopup="dialog" aria-expanded={open}><span>Explore</span><span className="menu-bars" aria-hidden="true"><i/><i/></span></button>
   <dialog ref={dialog} className="menu-overlay" aria-label="Explore The Urbanist" onCancel={e => {e.preventDefault();close();}}>
    <div className="overlay-header"><span className="wordmark">URBANIST<span>SOUND HOUSE · BUCHAREST</span></span><button className="overlay-close" onClick={close}>Close <RiCloseLine size={24}/></button></div>
    <div className="overlay-body"><div className="overlay-meta"><span className="eyebrow">DIFFERENT SCENES.<br/>ONE SHARED SPACE.</span><p>Str. George Enescu 25<br/>Bucharest, Romania</p><span className="overlay-mini-mark">U.</span></div><nav aria-label="Full menu">{[{name:'THE MENU',target:'/menu',note:'01'},{name:'THE SOUND',target:'/#sound',note:'02'},{name:'THE CULTURE',target:'/#culture',note:'03'},{name:'THE PLACE',target:'/#visit',note:'04'}].map(item => <Link key={item.target} href={item.target} onClick={go}><span className="overlay-nav-label"><small>{item.note}</small><span>{item.name}</span><RiArrowRightUpLine/></span></Link>)}</nav></div>
