@@ -5,9 +5,9 @@ import gsap from 'gsap';
 import styles from './sound-album.module.css';
 
 const photos = [
- { src: '/images/urbanist-interior-refined.png', alt: 'AI-refined photograph of the Urbanist interior', depth: 12 },
+ { src: '/images/sound-album-speaker.png', alt: 'AI-enhanced reference photo of the Urbanist custom horn speaker in violet light', depth: 12 },
  { src: '/images/sound-album-people.png', alt: 'AI-generated candid of friends dancing under violet lights', depth: 26 },
- { src: '/images/sound-album-vinyl.png', alt: 'AI-generated close-up of a DJ cueing a vinyl record', depth: 38 },
+ { src: '/images/sound-album-vinyl-v2.png', alt: 'AI-remade reference photo of the silver turntable with The Urbanist slipmat', depth: 38 },
  { src: '/images/urbanist-dj-booth-refined.png', alt: 'AI-refined photograph of the Urbanist DJ booth', depth: 19 },
 ];
 
