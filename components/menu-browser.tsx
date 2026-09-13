@@ -88,9 +88,10 @@ export default function MenuBrowser({ categories, items }: { categories: MenuCat
    })}
    {!results.length&&<div className="menu-empty"><h3>NOTHING ON THAT FREQUENCY.</h3><p>Try a drink, a dish, or an ingredient.</p><button className="button button-dark" onClick={()=>{setQuery('');search.current?.focus();}}>Clear search <RiCloseLine size={18}/></button></div>}
   </div>
-  <div className="menu-house-notes"><div><span className="eyebrow">A NOTE FROM THE KITCHEN</span><p>Food allergies or intolerances?<br/>Please talk to our people before ordering.</p></div><div><p>Ingredients and allergens shown are those listed in our menu. Not all ingredients are listed. No substitutions or alterations.</p><span>ALL PRICES IN ROMANIAN LEI · ORDER AT THE BAR</span></div></div>
+  <div className="menu-house-notes"><div><span className="eyebrow">A NOTE FROM THE KITCHEN</span><p>Kitchen closes at 21:00.</p><p>Food allergies or intolerances?<br/>Please talk to our people before ordering.</p></div><div><p>Ingredients and allergens shown are those listed in our menu. Not all ingredients are listed. No substitutions or alterations.</p><span>ALL PRICES IN ROMANIAN LEI · ORDER AT THE BAR</span></div></div>
   {selected&&<ItemDetails key={selected.id} item={selected} category={categories.find(c=>c.id===selected.categoryId)!} onClose={()=>setSelected(null)}/>}
  </>;
 }
+
 
 
