@@ -562,3 +562,51 @@ main { min-width: 0; padding: 0 48px; }
  .venue-page>.venue-footer>div { font-size:17vw; }
  .menu-wall-bottom { overflow-wrap:anywhere; }
 }
+
+/* The opening headline overlaps a wide photo, with both intro columns below. */
+@media(min-width:761px) {
+ .venue-hero { display:block; padding-bottom:36px; }
+ .venue-hero h1 { margin:28px 0 -24px; }
+ .venue-hero-image { width:75%; margin-left:auto; height:auto; aspect-ratio:1.52; }
+ .venue-hero-image>img { object-position:center 72%; }
+ .venue-intro { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin:30px 0 24px; }
+ .venue-intro>span { max-width:420px; justify-self:end; }
+ .hero-review { margin:0; }
+}
+.hero-menu-panel { width:75%; margin:0 0 0 auto; min-height:560px; }
+.hero-menu-panel .menu-wall-content { padding:56px 24px 88px; }
+.hero-menu-panel .menu-wall-content h2 { font-size:clamp(3.5rem,5.5vw,5.5rem); }
+.hero-menu-panel .menu-wall-bottom { left:24px; right:24px; letter-spacing:.02em; }
+@media(max-width:760px) {
+ .hero-menu-panel { width:100%; margin:0; min-height:480px; }
+ .hero-menu-panel .menu-wall-content { padding:36px 16px 76px; }
+ .hero-menu-panel .menu-wall-content h2 { font-size:clamp(2.4rem,11vw,4.5rem); }
+ .hero-menu-panel .menu-wall-content>.eyebrow { font-size:.5625rem; }
+ .hero-menu-panel .menu-wall-content p { font-size:1rem; }
+}
+.entry-kicker { display:flex; justify-content:space-between; gap:16px; padding:22px 0; font-size:.75rem; letter-spacing:.05em; }
+.entry-menu-wall { margin-inline:0; }
+.menu-wall-content h1 { font-size:clamp(3.75rem,6.5vw,6rem); font-weight:600; letter-spacing:-.04em; line-height:.94; margin:24px 0 20px; text-align:center; }
+.menu-wall-content h1>span { color:#c3a4df; }
+.culture-interior { position:relative; overflow:hidden; margin-top:32px; height:clamp(360px,48vw,570px); background:#251631; }
+.culture-interior img { height:115%; margin-top:-4%; object-position:center 76%; }
+.culture-interior>span { position:absolute; bottom:22px; left:22px; color:white; font-size:.75rem; }
+.culture-rating { margin-top:18px; }
+.instagram-feature { display:grid; grid-template-columns:1fr minmax(0,480px); gap:48px; align-items:center; padding-top:48px; }
+.instagram-feature-copy h3 { font-size:clamp(2rem,4vw,3.5rem); font-weight:600; line-height:1; letter-spacing:-.03em; margin:22px 0; }
+.instagram-feature-copy p { margin-bottom:24px; font-size:1rem; }
+.instagram-embed { display:block; border:0; width:100%; height:660px; background:white; }
+.sheet-dismiss-hint { display:none; }
+.review-rating-only { font-size:clamp(2rem,5vw,4rem); padding-block:28px; color:var(--violet); }
+@media(max-width:760px) {
+ .entry-kicker { font-size:.625rem; padding-block:16px; }
+ .entry-kicker span:last-child { text-align:right; }
+ .entry-menu-wall { margin-inline:0; min-height:480px; }
+ .entry-menu-wall .menu-wall-content { padding:32px 16px 90px; }
+ .menu-wall-content h1 { font-size:clamp(2.4rem,11vw,4.5rem); }
+ .culture-interior { height:380px; margin-top:24px; }
+ .instagram-feature { grid-template-columns:minmax(0,1fr); gap:24px; padding-top:36px; }
+ .instagram-embed { height:620px; }
+ .sheet-dismiss-hint { display:block; text-align:center; color:#777; font-size:.75rem; padding:4px 0 8px; }
+ .sheet-handle { flex-shrink:0; }
+}

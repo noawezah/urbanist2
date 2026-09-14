@@ -4,7 +4,7 @@ import { RiArrowLeftLine, RiArrowRightLine, RiArrowRightUpLine, RiStarFill } fro
 import reviewData from '@/data/reviews.json';
 
 export const googleReviewsUrl='https://www.google.com/maps?cid=769289405501663995';
-type Review={author:string;rating:number;text:string;url:string;sourceDateLabel:string;checkedAt:string;userSelected:boolean};
+type Review={author:string;rating:number;text:string;url:string;sourceDateLabel:string;checkedAt:string;userSelected:boolean;translated?:boolean};
 const reviews=(reviewData as Review[]).filter(review=>review.userSelected&&review.rating>=4);
 
 export function GoogleRating() {
@@ -20,9 +20,10 @@ export default function Reviews() {
   if(card&&rail.current)rail.current.scrollTo({left:card.offsetLeft,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
  };
  return <section className="venue-section reviews-section" aria-label="Google reviews"><span className="eyebrow">FROM OUR PEOPLE</span><div className="venue-section-title"><h2>WORD ON<br/>THE STREET.</h2><a href={googleReviewsUrl} target="_blank" rel="noreferrer">Read Google reviews <RiArrowRightUpLine size={20}/></a></div>
- {reviews.length>0?<><div className="review-carousel" ref={rail} onScroll={()=>{const element=rail.current;if(!element)return;const cards=Array.from(element.children) as HTMLElement[];setActive(cards.reduce((best,card,index)=>Math.abs(card.offsetLeft-element.scrollLeft)<Math.abs(cards[best].offsetLeft-element.scrollLeft)?index:best,0));}}>{reviews.map(review=><article className="review-card" key={review.url}><span className="rating-stars" aria-label={`${review.rating} out of 5`}>{Array.from({length:review.rating},(_,i)=><RiStarFill key={i} size={18}/>)}</span><blockquote>“{review.text}”</blockquote><footer><span>{review.author}<small>Google review · translated from Romanian</small></span><a href={review.url} target="_blank" rel="noreferrer" aria-label={`Read ${review.author}'s review on Google`}><RiArrowRightUpLine/></a></footer></article>)}</div><div className="review-controls"><button onClick={()=>go(-1)} disabled={active===0} aria-label="Previous review"><RiArrowLeftLine/></button><span aria-live="polite">{active+1} / {reviews.length}</span><button onClick={()=>go(1)} disabled={active===reviews.length-1} aria-label="Next review"><RiArrowRightLine/></button></div></>:<GoogleRating/>}
+ {reviews.length>0?<><div className="review-carousel" ref={rail} onScroll={()=>{const element=rail.current;if(!element)return;const cards=Array.from(element.children) as HTMLElement[];setActive(cards.reduce((best,card,index)=>Math.abs(card.offsetLeft-element.scrollLeft)<Math.abs(cards[best].offsetLeft-element.scrollLeft)?index:best,0));}}>{reviews.map(review=><article className="review-card" key={review.url}><span className="rating-stars" aria-label={`${review.rating} out of 5`}>{Array.from({length:review.rating},(_,i)=><RiStarFill key={i} size={18}/>)}</span>{review.text?<blockquote>“{review.text}”</blockquote>:<p className="review-rating-only">{review.rating} / 5<small>Google rating</small></p>}<footer><span>{review.author}<small>{review.translated===false?'Google review':'Google review · translated from Romanian'}</small></span><a href={review.url} target="_blank" rel="noreferrer" aria-label={`Read ${review.author}'s review on Google`}><RiArrowRightUpLine/></a></footer></article>)}</div><div className="review-controls"><button onClick={()=>go(-1)} disabled={active===0} aria-label="Previous review"><RiArrowLeftLine/></button><span aria-live="polite">{active+1} / {reviews.length}</span><button onClick={()=>go(1)} disabled={active===reviews.length-1} aria-label="Next review"><RiArrowRightLine/></button></div></>:<GoogleRating/>}
  </section>;
 }
+
 
 
 
