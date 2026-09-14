@@ -563,22 +563,23 @@ main { min-width: 0; padding: 0 48px; }
  .menu-wall-bottom { overflow-wrap:anywhere; }
 }
 
-/* The opening headline overlaps a wide photo, with both intro columns below. */
+/* Separate the introduction and compact menu poster into two columns. */
 @media(min-width:761px) {
- .venue-hero { display:block; padding-bottom:36px; }
- .venue-hero h1 { margin:28px 0 -24px; }
- .venue-hero-image { width:75%; margin-left:auto; height:auto; aspect-ratio:1.52; }
- .venue-hero-image>img { object-position:center 72%; }
- .venue-intro { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin:30px 0 24px; }
- .venue-intro>span { max-width:420px; justify-self:end; }
- .hero-review { margin:0; }
+ .venue-hero { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); column-gap:clamp(28px,4vw,56px); row-gap:28px; padding-bottom:36px; }
+ .venue-kicker { grid-column:1 / -1; grid-row:1; }
+ .venue-hero h1 { grid-column:1; grid-row:2; align-self:end; margin:0; font-size:clamp(2.5rem,5.2vw,4.5rem); line-height:.98; }
+ .venue-intro { grid-column:1; grid-row:3; display:flex; flex-direction:column; gap:20px; margin:0; }
+ .venue-intro>span { max-width:420px; }
+ .hero-review { grid-column:1; grid-row:4; margin:0; align-self:start; }
 }
-.hero-menu-panel { width:75%; margin:0 0 0 auto; min-height:560px; }
-.hero-menu-panel .menu-wall-content { padding:56px 24px 88px; }
-.hero-menu-panel .menu-wall-content h2 { font-size:clamp(3.5rem,5.5vw,5.5rem); }
-.hero-menu-panel .menu-wall-bottom { left:24px; right:24px; letter-spacing:.02em; }
+.hero-menu-panel { grid-column:2; grid-row:2 / 5; width:100%; max-width:560px; justify-self:end; margin:0; min-height:480px; }
+.hero-menu-panel .menu-wall-content { padding:36px 20px 84px; }
+.hero-menu-panel .menu-wall-content h2 { font-size:clamp(2.6rem,4vw,3.75rem); }
+.hero-menu-panel .menu-wall-content>.eyebrow { font-size:.625rem; }
+.hero-menu-panel .menu-wall-content p { font-size:1rem; }
+.hero-menu-panel .menu-wall-bottom { left:20px; right:20px; flex-wrap:wrap; gap:6px; text-align:center; font-size:.5625rem; letter-spacing:.02em; }
 @media(max-width:760px) {
- .hero-menu-panel { width:100%; margin:0; min-height:480px; }
+ .hero-menu-panel { width:100%; max-width:none; margin:0; min-height:480px; }
  .hero-menu-panel .menu-wall-content { padding:36px 16px 76px; }
  .hero-menu-panel .menu-wall-content h2 { font-size:clamp(2.4rem,11vw,4.5rem); }
  .hero-menu-panel .menu-wall-content>.eyebrow { font-size:.5625rem; }
