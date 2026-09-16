@@ -21,6 +21,7 @@ const paths:Record<string,string>={
 };
 export default function CategoryIcon({id,size=20}:{id:string;size?:number}) {
  if(paths[id])return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.65" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d={paths[id]}/></svg>;
- const Icon=id==='sweets'?RiCake3Line:id==='eggs'?RiSunLine:id==='loaded-fries'?RiFireLine:id==='sides'?RiBowlLine:/tea|matcha/.test(id)?RiLeafLine:/coffee|cafe/.test(id)?RiCupLine:id==='beer-on-tap'?RiBeerLine:id==='energy-drinks'?RiWaterFlashLine:id==='bar'?RiDrinksLine:RiRestaurantLine;
+ const Icon=id==='sweets'?RiCake3Line:id==='eggs'?RiSunLine:id==='mains'?RiFireLine:id==='sides'?RiBowlLine:/tea|matcha/.test(id)?RiLeafLine:/coffee|cafe/.test(id)?RiCupLine:id==='beer-on-tap'?RiBeerLine:id==='energy-drinks'?RiWaterFlashLine:id==='bar'?RiDrinksLine:RiRestaurantLine;
  return <Icon size={size} aria-hidden="true"/>;
 }
+

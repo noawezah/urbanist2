@@ -33,7 +33,7 @@
  pointer-events: none;
  color: #fff;
  font-size: clamp(2.5rem, 6.6vw, 6rem);
- font-weight: 600;
+ font-weight: 700;
  line-height: .98;
  letter-spacing: -.045em;
  text-shadow: 0 2px 24px #130d1daa;
@@ -49,3 +49,4 @@
  .photo4 { left: -1%; top: 43%; width: 54%; height: 48%; }
  .headline { font-size: clamp(2rem, 8.4vw, 3.8rem); }
 }
+
