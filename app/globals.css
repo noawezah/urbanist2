@@ -248,7 +248,7 @@ main { min-width: 0; padding: 0 48px; }
 .menu-house-notes>div:last-child>span { display:block; font-size:11px; letter-spacing:.05em; margin-top:20px; }
 .item-dialog { position:fixed; inset:0; width:min(650px,calc(100% - 48px)); max-width:none; max-height:calc(100dvh - 64px); padding:0; margin:auto; background:var(--paper); color:var(--ink); border:0; overflow:hidden; box-shadow:0 30px 90px #0004; }
 .item-dialog[open] { display:flex; flex-direction:column; }
-.item-dialog::backdrop { background:#111a; backdrop-filter:blur(6px); }
+.item-dialog::backdrop { background:rgb(17 17 17 / var(--sheet-dim, .667)); backdrop-filter:blur(var(--sheet-blur, 6px)); }
 .item-dialog-header { padding:20px 30px; display:flex; align-items:center; justify-content:space-between; gap:20px; border-bottom:1px solid var(--rule); flex-shrink:0; }
 .item-dialog-header .eyebrow { font-size:11px; }
 .item-dialog-close { background:none; border:0; min-width:44px; height:44px; display:grid; place-items:center; }

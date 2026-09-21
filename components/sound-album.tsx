@@ -5,10 +5,10 @@ import gsap from 'gsap';
 import styles from './sound-album.module.css';
 
 const photos = [
- { src: '/images/sound-album-speaker.png', alt: 'AI-enhanced reference photo of the Urbanist custom horn speaker in violet light', depth: 12 },
- { src: '/images/sound-album-people.png', alt: 'AI-generated candid of friends dancing under violet lights', depth: 26 },
- { src: '/images/sound-album-vinyl-v2.png', alt: 'AI-remade reference photo of the silver turntable with The Urbanist slipmat', depth: 38 },
- { src: '/images/urbanist-dj-booth-refined.png', alt: 'AI-refined photograph of the Urbanist DJ booth', depth: 19 },
+ { src: '/images/3ef77a9a93b77dca66cf.png', alt: 'Custom horn speaker in violet light', depth: 12 },
+ { src: '/images/ae8e340c8ff066b775de.png', alt: 'Friends dancing under violet lights', depth: 26 },
+ { src: '/images/6075ad60433994b1a740.png', alt: 'Silver turntable with The Urbanist slipmat', depth: 38 },
+ { src: '/images/b01130e91312070def06.png', alt: 'The Urbanist DJ booth', depth: 19 },
 ];
 
 export default function SoundAlbum() {
