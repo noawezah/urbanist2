@@ -1,3 +1,5 @@
+import 'server-only';
+
 type Media = { permalink?: string; timestamp?: string; media_product_type?: string };
 
 export function newestInstagramPost(media: Media[]): string | null {
