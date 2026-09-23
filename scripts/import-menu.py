@@ -105,7 +105,7 @@ for row in records:
   if 'HOT HONEY' in raw_name or 'BUFFALO' in raw_name:notes.append('Marked spicy in the menu.')
   if 'PLEUROTUS' in raw_name or 'CAULIFLOWER' in raw_name:
    allergens=[1]
-   notes.append('With mashed potatoes: also contains milk (allergen 7).')
+   notes.append('For our vegan dishes, the mashed potatoes are also prepared vegan.')
    description=re.sub(r'ALLERGEN.*$','',body).strip()
  if cat=='shots':serving='30 ml'
  if cat in ['gin','rum','vodka','whiskey','tequila','aperitif','other-spirits']:
