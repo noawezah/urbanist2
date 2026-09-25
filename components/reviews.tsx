@@ -29,16 +29,21 @@ export default function Reviews() {
  useEffect(()=>{
   const root=section.current, panel=sticky.current, track=rail.current;
   if(!root||!panel||!track||!feed?.reviews.length)return;
-  let frame=0, distance=0;
+  let frame=0, distance=0, drift=0, disposed=false;
   const update=()=>{
    const header=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-height'))||0;
    const start=root.getBoundingClientRect().top+window.scrollY-header;
-   track.scrollLeft=Math.max(0,Math.min(distance,window.scrollY-start));
+   const travelled=Math.max(0,Math.min(distance,window.scrollY-start));
+   track.scrollLeft=travelled;
+   panel.style.transform=`translate3d(0,${distance ? -drift*travelled/distance : 0}px,0)`;
   };
   const onScroll=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(update);};
   const measure=()=>{
+   if(disposed)return;
    distance=Math.max(0,track.scrollWidth-track.clientWidth);
+   drift=distance&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches ? Math.min(96,window.innerHeight*.12) : 0;
    root.style.setProperty('--review-section-height',`${panel.offsetHeight+distance+1}px`);
+   root.style.setProperty('--review-drift',`${drift}px`);
    onScroll();
   };
   const observer=new ResizeObserver(measure);
@@ -47,7 +52,7 @@ export default function Reviews() {
   window.addEventListener('resize',measure);
   measure();
   void document.fonts.ready.then(measure);
-  return ()=>{observer.disconnect();cancelAnimationFrame(frame);window.removeEventListener('scroll',onScroll);window.removeEventListener('resize',measure);};
+  return ()=>{disposed=true;observer.disconnect();cancelAnimationFrame(frame);window.removeEventListener('scroll',onScroll);window.removeEventListener('resize',measure);};
  },[feed]);
  useEffect(()=>{
   const controller=new AbortController(); let pending=false;

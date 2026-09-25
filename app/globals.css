@@ -664,7 +664,7 @@ h1,h2,h3,h4,h5,h6,
 
 /* Scroll the existing reviews horizontally as the page moves vertically. */
 .reviews-section { padding:0; }
-.reviews-section.has-review-track { height:var(--review-section-height,auto); }
+.reviews-section.has-review-track { height:var(--review-section-height,auto); margin-bottom:calc(0px - var(--review-drift,0px)); }
 .reviews-section .review-sticky { position:sticky; top:var(--header-height); padding:28px 0 24px; background:var(--paper); }
 .reviews-section .review-sticky>.eyebrow { color:var(--violet); }
 .reviews-section .venue-section-title { margin:16px 0 22px; }
