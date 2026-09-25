@@ -10,7 +10,17 @@ function httpsUrl(value: unknown): string | null {
 
 export function parsePlaceReviews(value: unknown): ReviewsFeed {
  const place = object(value);
- const reviews: GoogleReview[] = Array.isArray(place.reviews) ? place.reviews.slice(0, 5).map((raw, index) => {
+ const fiveStarReviews = (Array.isArray(place.reviews) ? place.reviews : [])
+  .filter(raw => object(raw).rating === 5)
+  .sort((a, b) => {
+   const published = (raw: unknown) => {
+    const date = Date.parse(text(object(raw).publishTime));
+    return Number.isFinite(date) ? date : 0;
+   };
+   return published(b) - published(a);
+  })
+  .slice(0, 5);
+ const reviews: GoogleReview[] = fiveStarReviews.map((raw, index) => {
   const review = object(raw);
   const author = object(review.authorAttribution);
   const published = text(review.publishTime);
@@ -28,7 +38,7 @@ export function parsePlaceReviews(value: unknown): ReviewsFeed {
    rating: number(review.rating, 5),
    updated: false,
   };
- }) : [];
+ });
  return {
   reviews,
   averageRating: number(place.rating, 5),
