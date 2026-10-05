@@ -23,6 +23,6 @@ export default function CultureScroll() {
   return ()=>media.revert();
  },[]);
  return <div className="culture-scroll" ref={root}>
-  <div className="culture-scroll-sticky"><span className="eyebrow">ONE SHARED FREQUENCY</span><div className="culture-scroll-type" aria-label="Sound. Art. Street. Community.">{['SOUND','ART','STREET','COMMUNITY'].map(word=><span aria-hidden="true" className="culture-scroll-word" key={word}>{word}</span>)}</div><span className="culture-scroll-foot">BUCHAREST / UNDERGROUND</span></div>
+  <div className="culture-scroll-sticky"><div className="culture-scroll-type" aria-label="Sound. Art. Street. Community.">{['SOUND','ART','STREET','COMMUNITY'].map(word=><span aria-hidden="true" className="culture-scroll-word" key={word}>{word}</span>)}</div><span className="culture-scroll-foot">BUCHAREST / UNDERGROUND</span></div>
  </div>;
 }
