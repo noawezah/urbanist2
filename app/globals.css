@@ -4,6 +4,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 110px; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-brandon), Arial, sans-serif; font-weight:500; font-size: 18px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+.venue-page,.menu-page { width:100%; min-width:0; overflow-x:clip; }
 ::selection { background: var(--violet); color: white; }
 a { color: inherit; text-decoration: none; }
 button, input, textarea { font: inherit; }
@@ -196,8 +197,8 @@ main { min-width: 0; padding: 0 48px; }
 .menu-intro-copy p { font-size:27px; line-height:1.2; }
 .menu-intro-copy>span { display:block; font-size:12px; letter-spacing:.05em; margin-top:24px; }
 .menu-sticky { position:sticky; top:var(--header-height); background:var(--paper); z-index:20; border-top:1px solid var(--ink); border-bottom:1px solid var(--rule); box-shadow:0 10px 15px -15px #0008; }
-.menu-control-row { display:flex; justify-content:space-between; align-items:center; gap:25px; padding:18px 0; }
-.menu-groups { display:flex; gap:6px; }
+.menu-control-row { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:25px; padding:18px 0; }
+.menu-groups { display:flex; flex-wrap:wrap; gap:6px; }
 .menu-groups button { padding:12px 18px; border:1px solid transparent; background:none; font-size:16px; font-weight:600; white-space:nowrap; }
 .menu-groups button.is-active { background:var(--ink); color:white; }
 .menu-groups button:hover:not(.is-active) { background:#e6e6e2; }
@@ -230,8 +231,8 @@ main { min-width: 0; padding: 0 48px; }
 .menu-item { display:flex; flex-direction:column; text-align:left; background:transparent; border:0; border-top:1px solid var(--rule); padding:25px 0; min-height:180px; transition:background .2s,padding .3s; }
 .menu-item:hover { background:#ecece8; padding-inline:18px; }
 .menu-item-top { display:flex; justify-content:space-between; align-items:baseline; gap:20px; }
-.menu-item-name { font-size:23px; font-weight:600; letter-spacing:-.015em; line-height:1.15; }
-.menu-item-price { font-size:17px; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.menu-item-name { min-width:0; overflow-wrap:anywhere; font-size:23px; font-weight:600; letter-spacing:-.015em; line-height:1.15; }
+.menu-item-price { flex-shrink:0; font-size:17px; white-space:nowrap; font-variant-numeric:tabular-nums; }
 .menu-item-description { font-size:15px; line-height:1.5; color:#62625f; margin-top:14px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
 .menu-item-category { font-size:12px; color:var(--violet); margin-top:10px; }
 .menu-item-bottom { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:auto; padding-top:22px; }
@@ -478,7 +479,7 @@ main { min-width: 0; padding: 0 48px; }
 .culture-section .culture-statement { font-size:clamp(1.5rem,3vw,2.5rem); line-height:1.2; }
 .culture-scroll { height:220dvh; position:relative; }
 .culture-scroll-sticky { position:sticky; top:0; height:100dvh; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:38px; }
-.culture-scroll-type { position:relative; width:100%; height:clamp(80px,15vw,200px); perspective:700px; }
+.culture-scroll-type { position:relative; width:100%; height:clamp(80px,15vw,200px); overflow:clip; perspective:700px; }
 .culture-scroll-word { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-size:clamp(2rem,10.2vw,9rem); font-weight:600; line-height:1; letter-spacing:-.05em; color:var(--violet); backface-visibility:hidden; }
 .culture-scroll-word:not(:first-child) { visibility:hidden; }
 .culture-scroll-foot { font-size:.75rem; letter-spacing:.1em; }
@@ -589,13 +590,13 @@ main { min-width: 0; padding: 0 48px; }
 .culture-interior img { height:115%; margin-top:-4%; object-position:center 76%; }
 .culture-interior>span { position:absolute; bottom:22px; left:22px; color:white; font-size:.75rem; }
 .culture-rating { margin-top:18px; }
-.instagram-feature { display:grid; grid-template-columns:1fr minmax(0,480px); gap:48px; align-items:center; padding-top:48px; }
+.instagram-feature { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,480px); gap:48px; align-items:center; padding-top:48px; }
 .instagram-feature-copy h3 { font-size:clamp(2rem,4vw,3.5rem); font-weight:600; line-height:1; letter-spacing:-.03em; margin:22px 0; }
 .instagram-feature-copy p { margin-bottom:24px; font-size:1rem; }
 .instagram-embed { min-width:0; width:100%; }
 .instagram-embed .instagram-media { width:100% !important; min-width:0 !important; max-width:100% !important; margin:0 !important; box-sizing:border-box; }
 .instagram-embed blockquote { padding:24px; background:white; }
-.instagram-embed iframe { display:block; border:0; }
+.instagram-embed iframe { display:block; width:100% !important; min-width:0 !important; max-width:100% !important; border:0; }
 .sheet-dismiss-hint { display:none; }
 .review-rating-only { font-size:clamp(2rem,5vw,4rem); padding-block:28px; color:var(--violet); }
 @media(max-width:760px) {
@@ -681,4 +682,19 @@ h1,h2,h3,h4,h5,h6,
  .reviews-section .review-edition { margin-bottom:10px; }
  .reviews-section .live-review-card { height:304px; padding:14px 0 4px; }
  .reviews-section .live-review-card blockquote { max-height:112px; margin:12px 0; font-size:1rem; }
+}
+
+/* Keep responsive content within the page without creating a scroll container
+   around sticky navigation or the scroll-driven sections. */
+.venue-hero>*,.instagram-feature>*,.visit-details>*,
+.menu-house-notes>*,.menu-category-heading>div { min-width:0; }
+.venue-section-title { flex-wrap:wrap; }
+.instagram-feature-copy h3 { overflow-wrap:anywhere; }
+.venue-footer>p { flex-wrap:wrap; gap:20px; }
+.public-header .wordmark,.site-header-actions { flex-shrink:0; }
+@media(min-width:761px) and (max-width:1000px) {
+ .public-header>nav { display:none; }
+ .public-header .mobile-menu-link { display:block; }
+ .menu-page .mobile-menu-link { display:none; }
+ .instagram-feature { grid-template-columns:repeat(2,minmax(0,1fr)); gap:32px; }
 }
