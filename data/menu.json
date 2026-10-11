@@ -1,5 +1,5 @@
 {
-  "source": "58906129_1.pdf",
+  "source": "59032204_1.pdf",
   "categories": [
     {
       "id": "toasts",
@@ -227,7 +227,7 @@
       "id": "toasts-feta-roasted-pepper",
       "categoryId": "toasts",
       "name": "Feta & Roasted Pepper",
-      "description": "Feta cheese, roasted pepper, pesto toasted in sourdough bread (30g/60g/30g/200g)",
+      "description": "Feta cheese, roasted pepper, underdough pesto toasted in sourdough bread (30g/60g/30g/200g)",
       "serving": "",
       "prices": [
         19
@@ -241,7 +241,7 @@
         8
       ],
       "notes": [],
-      "sourceText": "FETA & ROASTED PEPPER 19LEI\nFETA CHEESE, ROASTED PEPPER, PESTO TOASTED IN SOURDOUGH BREAD (30G/60G/30G/200G) ALLERGEN 1, 7, 8"
+      "sourceText": "FETA & ROASTED PEPPER 19LEI\nFETA CHEESE, ROASTED PEPPER, UNDERDOUGH PESTO TOASTED IN SOURDOUGH BREAD (30G/60G/30G/200G)ALLERGEN 1, 7, 8"
     },
     {
       "id": "toasts-bacon-egg-n-cheese",
@@ -267,7 +267,7 @@
       "id": "eggs-shakshouka",
       "categoryId": "eggs",
       "name": "Shakshouka",
-      "description": "Our legendary marinara sauce, poached eggs, feta cheese and parsley served with sourdough bread + salad mix (200g/2p/35g/2g/100g/50g)",
+      "description": "Our legendary underdough marinara sauce, poached eggs, feta cheese and parsley served with sourdough bread (200g/2p/35g/2g/100g/50g)",
       "serving": "",
       "prices": [
         29
@@ -282,13 +282,13 @@
         11
       ],
       "notes": [],
-      "sourceText": "SHAKSHOUKA 29LEI\nOUR LEGENDARY MARIANARA SAUCE, POACHED EGGS, FETA CHEESE AND PRASLEY SERVED WITH SOURDOUGH BREAD + SALAD MIX (200G/2P/35G/2G/100G/50G) ALLERGEN 1, 3, 7, 11"
+      "sourceText": "SHAKSHOUKA 29LEI\nOUR LEGENDARY UNDERDOUGH MARINARA SAUCE, POACHED EGGS, FETA CHEESE AND PARSLEY SERVED WITH SOURDOUGH BREAD (200G/2P/35G/2G/100G/50G) ALLERGEN 1, 3, 7, 11"
     },
     {
       "id": "eggs-turkish-eggs",
       "categoryId": "eggs",
       "name": "Turkish Eggs",
-      "description": "Greek yogurt whipped with tahini, poached eggs dressed in spicy hot butter served with sourdough bread + salad mix (150g/2p/20g/100g/50g)",
+      "description": "Greek yogurt whipped with tahini and mint, poached eggs dressed in spicy hot butter, parsley, dill, and fried chickpeas served with sourdough bread (150g/2p/20g/100g/50g)",
       "serving": "",
       "prices": [
         29
@@ -305,7 +305,7 @@
       "notes": [
         "Marked spicy in the menu."
       ],
-      "sourceText": "TURKISH EGGS 29LEI\nGREEK YOGURT WHIPPED WITH TAHINI, POACHED EGGS DRESSED IN SPICY HOT BUTTER SERVED WITH SOURDOUGH BREAD + SALAD MIX (150G/2P/20G/100G/50G) ALLERGEN 1, 3, 7, 11"
+      "sourceText": "TURKISH EGGS 29LEI\nGREEK YOGURT WHIPPED WITH TAHINI AND MINT, POACHED EGGS DRESSED IN SPICY HOT BUTTER, PARSLEY, DILL, AND FRIED CHICKPEAS SERVED WITH SOURDOUGH BREAD (150G/2P/20G/100G/50G) ALLERGEN 1, 3, 7, 11"
     },
     {
       "id": "eggs-ham-n-cheese-omelette",
@@ -353,7 +353,7 @@
       "id": "eggs-mushrooms-n-feta-omelette",
       "categoryId": "eggs",
       "name": "Mushrooms ‘N Feta Omelette",
-      "description": "Mushroom mix, feta cheese, basil pesto dressed in eggs with grana padano and sourdough bread + salad mix (40g/40g/20g/3p/30g/100g/50g)",
+      "description": "Mushrooms mix, feta cheese, underdough basil pesto dressed in eggs with grana padano and sourdough bread + salad mix (40g/40g/20g/3p/30g/100g/50g)",
       "serving": "",
       "prices": [
         29
@@ -367,13 +367,13 @@
         7
       ],
       "notes": [],
-      "sourceText": "MUSHROOMS ‘N FETA OMELETTE 29LEI\nMUSHROOM MIX, FETA CHEESE, BASIL PESTO DRESSED IN EGGS WITH GRANA PADANO AND SOURDOUGH BREAD + SALAD MIX (40G/40G/20G/3P/30G/100G/50G) ALLERGEN 1, 3, 7"
+      "sourceText": "MUSHROOMS ‘N FETA OMELETTE 29LEI\nMUSHROOMS MIX, FETA CHEESE, UNDERDOUGH BASIL PESTO DRESSED IN EGGS WITH GRANA PADANO AND SOURDOUGH BREAD + SALAD MIX (40G/40G/20G/3P/30G/100G/50G) ALLERGEN 1, 3, 7"
     },
     {
       "id": "eggs-veggies-omelette",
       "categoryId": "eggs",
       "name": "Veggies Omelette",
-      "description": "Kapia pepper, red onion, pleurotus mushroom dressed in eggs and sourdough bread + salad mix (40/30/40/3p/100/50g)",
+      "description": "Kapia pepper, red onion, mushrooms mix dressed in eggs and sourdough bread + salad mix (40/30/40/3p/100/50g)",
       "serving": "",
       "prices": [
         29
@@ -387,13 +387,13 @@
         11
       ],
       "notes": [],
-      "sourceText": "VEGGIES OMELETTE 29LEI\nKAPIA PEPPER, RED ONION, PLEUROTUS MUSHROOM DRESSED IN EGGS AND SOURDOUGH BREAD + SALAD MIX (40/30/40/3P/100/50G) ALLERGEN 1, 3, 11"
+      "sourceText": "VEGGIES OMELETTE 29LEI\nKAPIA PEPPER, RED ONION, MUSHROOMS MIX DRESSED IN EGGS AND SOURDOUGH BREAD + SALAD MIX (40/30/40/3P/100/50G) ALLERGEN 1, 3, 11"
     },
     {
       "id": "eggs-avocado-benedict-or-and-salmon",
       "categoryId": "eggs",
       "name": "Avocado-Benedict /+ Salmon",
-      "description": "Avocado, poached eggs, (+salmon), hollandaise sauce on a slice of sourdough bread + salad mix (60g/2p/(60g)/50g/100g/50g)",
+      "description": "Mashed avocado, poached eggs, (+salmon), hollandaise sauce on a slice of sourdough bread + salad mix (60g/2p/(60g)/50g/100g/50g)",
       "serving": "",
       "prices": [
         34,
@@ -413,13 +413,13 @@
       "notes": [
         "With salmon: also contains fish (allergen 4)."
       ],
-      "sourceText": "AVOCADO-BENEDICT /+ SALMON 34LEI / 44LEI\nAVOCADO, POACHED EGGS, (+SALMON), HOLLANDAISE SAUCE ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (60G/2P/(60G)/50G/100G/50G)ALLERGEN 1, 3, (4), 7, 10, 11"
+      "sourceText": "AVOCADO-BENEDICT /+ SALMON 34LEI / 44LEI\nMASHED AVOCADO, POACHED EGGS, (+SALMON), HOLLANDAISE SAUCE ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (60G/2P/(60G)/50G/100G/50G)ALLERGEN 1, 3, (4), 7, 10, 11"
     },
     {
       "id": "eggs-no-eggs-pink-hummus-mushroom-mix",
       "categoryId": "eggs",
-      "name": "No Eggs Pink Hummus & Mushroom Mix",
-      "description": "Hummus with beetroot, mushroom mix and fried chickpeas on a slice of sourdough bread + salad mix (100g/60g/100g/50g/1g)",
+      "name": "No Eggs Pink Hummus & Mushroom Mix On Bread",
+      "description": "Pink hummus with beetroot, mushrooms mix and fried chickpeas on a slice of sourdough bread + salad mix (100g/60g/100g/50g/1g)",
       "serving": "",
       "prices": [
         29
@@ -432,7 +432,7 @@
         11
       ],
       "notes": [],
-      "sourceText": "NO EGGS PINK HUMMUS & MUSHROOM MIX 29LEI\nHUMMUS WITH BEETROOT, MUSHROOM MIX AND FRIED CHICKPEAS ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (100G/60G/100G/50G/1G) ALLERGEN 1, 11"
+      "sourceText": "NO EGGS PINK HUMMUS & MUSHROOM MIX ON BREAD 29LEI\nPINK HUMMUS WITH BEETROOT, MUSHROOMS MIX AND FRIED CHICKPEAS ON A SLICE OF SOURDOUGH BREAD + SALAD MIX (100G/60G/100G/50G/1G) ALLERGEN 1, 11"
     },
     {
       "id": "mains-fresh-fries-or-mashed-with-eggs-feta-cheese",
@@ -459,7 +459,7 @@
       "id": "mains-fresh-fries-or-mashed-garlic-wings",
       "categoryId": "mains",
       "name": "Fresh Fries / Mashed & Garlic Wings",
-      "description": "Fresh fries, fried chicken wings, garlic, grana padano, parsley, served with pickled cucumber and sriracha mayo sauce (300gr/300gr/100gr/75g)",
+      "description": "Fresh fries / mashed potatoes, fried chicken wings, garlic, grana padano, parsley, served with pickled cucumber and sriracha mayo sauce (300gr/300gr/100gr/75g)",
       "serving": "",
       "prices": [
         45
@@ -473,13 +473,13 @@
       "notes": [
         "Choose fresh fries or mashed potatoes."
       ],
-      "sourceText": "FRESH FRIES / MASHED & GARLIC WINGS 45LEI\nFRESH FRIES, FRIED CHICKEN WINGS, GARLIC, GRANA PADANO, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO SAUCE (300GR/300GR/100GR/75G) ALLERGEN 7"
+      "sourceText": "FRESH FRIES / MASHED & GARLIC WINGS 45LEI\nFRESH FRIES / MASHED POTATOES, FRIED CHICKEN WINGS, GARLIC, GRANA PADANO, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO SAUCE (300GR/300GR/100GR/75G)ALLERGEN 7"
     },
     {
       "id": "mains-fresh-fries-or-mashed-hot-honey-wings",
       "categoryId": "mains",
       "name": "Fresh Fries / Mashed & Hot Honey Wings",
-      "description": "Fresh fries, fried chicken wings, hot honey, grana padano, parsley, served with pickled cucumber and sriracha mayo sauce (300gr/300gr/100gr/75g)",
+      "description": "Fresh fries / mashed potatoes, fried chicken wings, hot honey, grana padano, parsley, served with pickled cucumber and sriracha mayo sauce (300gr/300gr/100gr/75g)",
       "serving": "",
       "prices": [
         45
@@ -494,13 +494,13 @@
         "Choose fresh fries or mashed potatoes.",
         "Marked spicy in the menu."
       ],
-      "sourceText": "FRESH FRIES / MASHED & HOT HONEY WINGS 45LEI\nFRESH FRIES, FRIED CHICKEN WINGS, HOT HONEY, GRANA PADANO, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO SAUCE (300GR/300GR/100GR/75G) ALLERGEN 7"
+      "sourceText": "FRESH FRIES / MASHED & HOT HONEY WINGS 45LEI\nFRESH FRIES / MASHED POTATOES, FRIED CHICKEN WINGS, HOT HONEY, GRANA PADANO, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO SAUCE (300GR/300GR/100GR/75G) ALLERGEN 7"
     },
     {
       "id": "mains-fresh-fries-or-mashed-buffalo-wings",
       "categoryId": "mains",
       "name": "Fresh Fries / Mashed & Buffalo Wings",
-      "description": "Fresh fries, fried chicken wings, frank’s red hot, grana padana, parsley, served with pickled cucumber and sriracha mayo sauce (300gr/300gr/100gr/75g)",
+      "description": "Fresh fries / mashed potatoes, fried chicken wings, frank’s red hot, grana padana, parsley, served with pickled cucumber and sriracha mayo sauce (300gr/300gr/100gr/75g)",
       "serving": "",
       "prices": [
         45
@@ -515,13 +515,13 @@
         "Choose fresh fries or mashed potatoes.",
         "Marked spicy in the menu."
       ],
-      "sourceText": "FRESH FRIES / MASHED & BUFFALO WINGS 45LEI\nFRESH FRIES, FRIED CHICKEN WINGS, FRANK’S RED HOT, GRANA PADANA, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO SAUCE (300GR/300GR/100GR/75G)ALLERGEN 7"
+      "sourceText": "FRESH FRIES / MASHED & BUFFALO WINGS 45LEI\nFRESH FRIES / MASHED POTATOES, FRIED CHICKEN WINGS, FRANK’S RED HOT, GRANA PADANA, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO SAUCE (300GR/300GR/100GR/75G) ALLERGEN 7"
     },
     {
       "id": "mains-fresh-fries-or-mashed-crispy-chicken",
       "categoryId": "mains",
       "name": "Fresh Fries / Mashed & Crispy Chicken",
-      "description": "Fresh fries, fried crispy chicken tenders, grana padano, parsley, served with pickled cucumber and sriracha mayo (300g/280g/30g/30g/100g/75g)",
+      "description": "Fresh fries / mashed potatoes, fried crispy chicken tenders, grana padano, parsley, served with pickled cucumber and sriracha mayo (300g/280g/30g/30g/100g/75g)",
       "serving": "",
       "prices": [
         45
@@ -536,13 +536,13 @@
       "notes": [
         "Choose fresh fries or mashed potatoes."
       ],
-      "sourceText": "FRESH FRIES / MASHED & CRISPY CHICKEN 45LEI\nFRESH FRIES, FRIED CRISPY CHICKEN TENDERS, GRANA PADANO, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO (300G/280G/30G/30G/100G/75G) ALLERGEN 1, 7"
+      "sourceText": "FRESH FRIES / MASHED & CRISPY CHICKEN 45LEI\nFRESH FRIES / MASHED POTATOES, FRIED CRISPY CHICKEN TENDERS, GRANA PADANO, PARSLEY, SERVED WITH PICKLED CUCUMBER AND SRIRACHA MAYO (300G/280G/30G/30G/100G/75G) ALLERGEN 1, 7"
     },
     {
       "id": "mains-fresh-fries-or-mashed-crispy-pleurotus",
       "categoryId": "mains",
       "name": "Fresh Fries / Mashed & Crispy Pleurotus",
-      "description": "Fresh fries, fried pleurotus mushroom, parsley served with pickled cucumber and vegan sriracha mayo sauce (300gr/250gr/100g/75g)",
+      "description": "Fresh fries / vegan mashed potatoes, fried pleurotus mushroom, parsley served with pickled cucumber and vegan sriracha mayo sauce (300gr/250gr/100g/75g)",
       "serving": "",
       "prices": [
         39
@@ -555,15 +555,16 @@
       ],
       "notes": [
         "Choose fresh fries or mashed potatoes.",
-        "For our vegan dishes, the mashed potatoes are also prepared vegan."
+        "For our vegan dishes, the mashed potatoes are also prepared vegan.",
+        "The printed menu also lists milk (allergen 7) for the mashed-potato option. Confirm the vegan option's allergens with staff."
       ],
-      "sourceText": "FRESH FRIES / MASHED & CRISPY PLEUROTUS 39LEI /\nFRESH FRIES, FRIED PLEUROTUS MUSHROOM, PARSLEY SERVED WITH PICKLED CUCUMBER AND VEGAN SRIRACHA MAYO SAUCE (300GR/250GR/100G/75G) ALLERGEN 1 / ALLERGEN 1, 7"
+      "sourceText": "FRESH FRIES / MASHED & CRISPY PLEUROTUS 39LEI\nFRESH FRIES / VEGAN MASHED POTATOES, FRIED PLEUROTUS MUSHROOM, PARSLEY SERVED WITH PICKLED CUCUMBER AND VEGAN SRIRACHA MAYO SAUCE (300GR/250GR/100G/75G) ALLERGEN 1 / ALLERGEN 1, 7"
     },
     {
       "id": "mains-fresh-fries-or-mashed-crispy-cauliflower",
       "categoryId": "mains",
       "name": "Fresh Fries / Mashed & Crispy Cauliflower",
-      "description": "Fresh fries, fried cauliflower, parsley served with pickled cucumber and vegan sriracha mayo sauce (300gr/250gr/100g/75g)",
+      "description": "Fresh fries / vegan mashed potatoes, fried cauliflower, parsley served with pickled cucumber and vegan sriracha mayo sauce (300gr/250gr/100g/75g)",
       "serving": "",
       "prices": [
         39
@@ -576,9 +577,10 @@
       ],
       "notes": [
         "Choose fresh fries or mashed potatoes.",
-        "For our vegan dishes, the mashed potatoes are also prepared vegan."
+        "For our vegan dishes, the mashed potatoes are also prepared vegan.",
+        "The printed menu also lists milk (allergen 7) for the mashed-potato option. Confirm the vegan option's allergens with staff."
       ],
-      "sourceText": "FRESH FRIES / MASHED & CRISPY CAULIFLOWER 39LEI /\nFRESH FRIES, FRIED CAULIFLOWER, PARSLEY SERVED WITH PICKLED CUCUMBER AND VEGAN SRIRACHA MAYO SAUCE (300GR/250GR/100G/75G) ALLERGEN 1 / ALLERGEN 1, 7"
+      "sourceText": "FRESH FRIES / MASHED & CRISPY CAULIFLOWER 39LEI\nFRESH FRIES / VEGAN MASHED POTATOES, FRIED CAULIFLOWER, PARSLEY SERVED WITH PICKLED CUCUMBER AND VEGAN SRIRACHA MAYO SAUCE (300GR/250GR/100G/75G) ALLERGEN 1 / ALLERGEN 1, 7"
     },
     {
       "id": "sides-beer-chips-xxl",
@@ -630,7 +632,7 @@
         7
       ],
       "notes": [],
-      "sourceText": "FRESH FRIES WITH GRANA PADANO, GARLIC & PRASLEY 29LEI\nPOTATOES, GARLIC, GRANA PADANO, PARLSLEY, MALDON SALT (300G/50G) ALLERGEN 7"
+      "sourceText": "FRESH FRIES WITH GRANA PADANO, GARLIC & PARSLEY 29LEI\nPOTATOES, GARLIC, GRANA PADANO, PARSLEY, MALDON SALT (300G/50G) ALLERGEN 7"
     },
     {
       "id": "sides-fresh-fries-with-maldon-salt",
@@ -651,25 +653,30 @@
     {
       "id": "sides-mashed-potatoes",
       "categoryId": "sides",
-      "name": "Mashed Potatoes",
-      "description": "Potatoes, milk, butter (350g)",
+      "name": "Mashed Potatoes / Vegan Mashed Potatoes",
+      "description": "Potatoes, milk, butter (350g) / potatoes, oat cream, olive oil (350g)",
       "serving": "",
       "prices": [
+        26,
         26
       ],
       "priceLabels": [
-        "Per item"
+        "Mashed Potatoes",
+        "Vegan Mashed Potatoes"
       ],
       "allergens": [
+        5,
         7
       ],
-      "notes": [],
-      "sourceText": "MASHED POTATOES 26LEI\nPOTATOES, MILK, BUTTER (350G) ALLERGEN 7"
+      "notes": [
+        "Mashed potatoes: milk (allergen 7). Vegan mashed potatoes: peanuts (allergen 5), as listed in the printed menu. Confirm the vegan option's allergens with staff."
+      ],
+      "sourceText": "MASHED POTATOES / VEGAN MASHED POTATOES 26LEI / 26LEI\nPOTATOES, MILK, BUTTER (350G) / POTATOES, OAT CREAM, OLIVE OIL (350G) ALLERGEN 7 / ALLERGEN 5"
     },
     {
       "id": "sides-hummus-with-beetroot",
       "categoryId": "sides",
-      "name": "Hummus With Beetroot",
+      "name": "Pink Hummus With Beetroot",
       "description": "Chickpeas, tahini, lemon, olive oil, garlic, bread (300g)",
       "serving": "",
       "prices": [
@@ -683,7 +690,7 @@
         11
       ],
       "notes": [],
-      "sourceText": "HUMMUS WITH BEETROOT 29LEI\nCHICKPEAS, TAHINI, LEMON, OLIVE OIL, GARLIC, BREAD (300G) ALLERGEN 1,11"
+      "sourceText": "PINK HUMMUS WITH BEETROOT 29LEI\nCHICKPEAS, TAHINI, LEMON, OLIVE OIL, GARLIC, BREAD (300G) ALLERGEN 1,11"
     },
     {
       "id": "sides-extra-homade-sauces",
@@ -701,16 +708,16 @@
       "notes": [
         "Listed by sauce: marinara — gluten; pesto — milk, nuts; aioli and sriracha mayo — eggs, mustard. Ask staff about spicy honey."
       ],
-      "sourceText": "EXTRA HOMADE SAUCES 9LEI\nMARINARA / PESTO / AIOLI / SPICY HONEY / SRIRACHA MAYO (75G) ALLERGEN 1 ALLERGEN 7, 8ALLERGEN 3, 10 ALLERGEN 3, 10"
+      "sourceText": "EXTRA HOMEMADE SAUCES 9LEI\nMARINARA / PESTO / AIOLI / SPICY HONEY / SRIRACHA MAYO (75G) ALLERGEN 1 ALLERGEN 7, 8ALLERGEN 3, 10 ALLERGEN 3, 10"
     },
     {
-      "id": "sweets-banana-bread-french-toast",
+      "id": "sweets-xxl-pancakes-with-blueberries",
       "categoryId": "sweets",
-      "name": "Banana Bread French Toast",
-      "description": "Banana bread, caramel / chocolate sauce and icecream (100g, 30g, 60g)",
+      "name": "XXL Pancakes With Blueberries",
+      "description": "American pancakes, blueberries, pistachio, maple syrup, mascarpone cream (300 g)",
       "serving": "",
       "prices": [
-        29
+        35
       ],
       "priceLabels": [
         "Per item"
@@ -719,10 +726,11 @@
         1,
         3,
         5,
-        7
+        7,
+        8
       ],
       "notes": [],
-      "sourceText": "BANANA BREAD FRENCH TOAST 29LEI\nBANANA BREAD, CARAMEL / CHOCOLATE SAUCE AND ICECREAM (100G, 30G, 60G) ALLERGEN 1, 3, 5, 7"
+      "sourceText": "XXL PANCAKES WITH BLUEBERRIES 35LEI\nAMERICAN PANCAKES, BLUEBERRIES, PISTACHIO, MAPLE SYRUP, MASCARPONE CREAM (300 G) ALLERGEN 1, 3, 5, 7, 8"
     },
     {
       "id": "sweets-xxl-pancakes-with-berries-mix-jam",
@@ -1368,7 +1376,7 @@
       "notes": [
         "Fruit marked * is frozen fruit."
       ],
-      "sourceText": "PINEAPPLE*+ORANGE+STAWBERRY* 330ML - 29LEI\nPINEAPPLE* + ORANGE +STRAWBERRY* + ICE"
+      "sourceText": "PINEAPPLE*+ORANGE+STRAWBERRY* 330ML - 29LEI\nPINEAPPLE* + ORANGE +STRAWBERRY* + ICE"
     },
     {
       "id": "raw-juice-mango-and-orange-and-stawberry",
@@ -1386,7 +1394,7 @@
       "notes": [
         "Fruit marked * is frozen fruit."
       ],
-      "sourceText": "MANGO*+ORANGE+STAWBERRY* 330ML - 29LEI\nMANGO* + ORANGE + STRAWBERRY* + ICE"
+      "sourceText": "MANGO*+ORANGE+STRAWBERRY* 330ML - 29LEI\nMANGO* + ORANGE + STRAWBERRY* + ICE"
     },
     {
       "id": "energy-drinks-red-bull-original",
@@ -2053,7 +2061,7 @@
     {
       "id": "shots-altos-reposado",
       "categoryId": "shots",
-      "name": "Altos Reposado",
+      "name": "Altos Reposado / Plata",
       "description": "",
       "serving": "30 ml",
       "prices": [
@@ -2064,7 +2072,7 @@
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "ALTOS REPOSADO - 18LEI\n"
+      "sourceText": "ALTOS REPOSADO / PLATA - 18LEI\n"
     },
     {
       "id": "shots-avion-reposado",
@@ -2757,10 +2765,10 @@
       "sourceText": "LILIAC RED CUVEE - 34 / 169LEI\nRED DRY - FETEASCA NEAGRA + MERLOT - 14.5% ALC"
     },
     {
-      "id": "wines-maschio-prosecco-extra-dry",
+      "id": "wines-rocca-dei-forti-prosecco-doc",
       "categoryId": "wines",
-      "name": "Maschio Prosecco Extra Dry",
-      "description": "Extra dry - doc veneto - 11.5% alc",
+      "name": "Rocca Dei Forti Prosecco Doc",
+      "description": "Prosecco doc brut - 10.5% alc",
       "serving": "125 / 750 ml",
       "prices": [
         29,
@@ -2772,7 +2780,7 @@
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "MASCHIO PROSECCO EXTRA DRY - 29 / 149LEI\nEXTRA DRY - DOC VENETO - 11.5% ALC"
+      "sourceText": "ROCCA DEI FORTI PROSECCO DOC - 29 / 149LEI\nPROSECCO DOC BRUT - 10.5% ALC"
     },
     {
       "id": "wines-luc-belaire-brut-gold",
@@ -2799,30 +2807,30 @@
       "description": "Brut sparkling wine - 12.5% alc - only bottlee",
       "serving": "750 ml bottle",
       "prices": [
-        390
+        290
       ],
       "priceLabels": [
         "750 ml bottle"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "LUC BELAIRE FANTOME ROSE - 390LEI\nBRUT SPARKLING WINE - 12.5% ALC - ONLY BOTTLEE"
+      "sourceText": "LUC BELAIRE FANTOME ROSE - 290LEI\nBRUT SPARKLING WINE - 12.5% ALC - ONLY BOTTLEE"
     },
     {
       "id": "gin-mcqueen-ultraviolet-fog",
       "categoryId": "gin",
-      "name": "Mcqueen Ultraviolet Fog",
+      "name": "Mcqueen Violet / Ultraviolet Fog",
       "description": "42% alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "MCQUEEN ULTRAVIOLET FOG 42% ALC - 38LEI\n"
+      "sourceText": "MCQUEEN VIOLET / ULTRAVIOLET FOG 42% ALC - 34LEI\n"
     },
     {
       "id": "gin-plymouth-or-sloe",
@@ -2911,14 +2919,14 @@
       "description": "40% alc / cream caraibbean 15% alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "BUMBU ORIGINAL 40% ALC / CREAM CARAIBBEAN 15% ALC - 38LEI\n"
+      "sourceText": "BUMBU ORIGINAL 40% ALC / CREAM CARAIBBEAN 15% ALC - 34LEI\n"
     },
     {
       "id": "vodka-absolut-blue",
@@ -2943,14 +2951,14 @@
       "description": "40% alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "OSTOYA BLACK 40% ALC - 38LEI\n"
+      "sourceText": "OSTOYA BLACK 40% ALC - 34LEI\n"
     },
     {
       "id": "whiskey-jameson-caskmates-irish-whiskey",
@@ -2975,14 +2983,14 @@
       "description": "40% alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "DEACON - BLENDED SCOTCH - 40% ALC - 38LEI\n"
+      "sourceText": "DEACON - BLENDED SCOTCH - 40% ALC - 34LEI\n"
     },
     {
       "id": "whiskey-chivas-12-yo-blended-scotch-whiskey",
@@ -2991,14 +2999,14 @@
       "description": "40% alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "CHIVAS 12 YO - BLENDED SCOTCH WHISKEY - 40% ALC - 38LEI\n"
+      "sourceText": "CHIVAS 12 YO - BLENDED SCOTCH WHISKEY - 40% ALC - 34LEI\n"
     },
     {
       "id": "whiskey-the-glenlivet-15-yo-single-malt-scotch-whiskey",
@@ -3007,19 +3015,19 @@
       "description": "40% alc",
       "serving": "40 ml",
       "prices": [
-        44
+        38
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "THE GLENLIVET 15 YO - SINGLE MALT SCOTCH WHISKEY - 40% ALC - 44LEI\n"
+      "sourceText": "THE GLENLIVET 15 YO - SINGLE MALT SCOTCH WHISKEY - 40% ALC - 38LEI\n"
     },
     {
       "id": "tequila-altos-reposado",
       "categoryId": "tequila",
-      "name": "Altos Reposado",
+      "name": "Altos Reposado / Plata",
       "description": "100% agave - 38% alc",
       "serving": "40 ml",
       "prices": [
@@ -3030,7 +3038,7 @@
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "ALTOS REPOSADO - 100% AGAVE - 38% ALC - 29LEI\n"
+      "sourceText": "ALTOS REPOSADO / PLATA - 100% AGAVE - 38% ALC - 29LEI\n"
     },
     {
       "id": "tequila-avion-reposado",
@@ -3055,14 +3063,14 @@
       "description": "42% alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "DEL MAGUEY VIDA - MEZCAL - 42% ALC - 38LEI\n"
+      "sourceText": "DEL MAGUEY VIDA - MEZCAL - 42% ALC - 34LEI\n"
     },
     {
       "id": "aperitif-petroni-aperitivo",
@@ -3119,14 +3127,14 @@
       "description": "40%alc",
       "serving": "40 ml",
       "prices": [
-        38
+        34
       ],
       "priceLabels": [
         "40 ml"
       ],
       "allergens": [],
       "notes": [],
-      "sourceText": "VILLON 40%ALC - 38LEI\n"
+      "sourceText": "VILLON 40%ALC - 34LEI\n"
     },
     {
       "id": "other-spirits-pernod-absinthe",

@@ -53,6 +53,19 @@ def title(value):
 
 categories=[{'id':d[1],'name':d[2],'group':d[3],'hours':d[4],'note':d[5]} for d in definitions]
 headings={squash(d[0]):d[1] for d in definitions}
+# Keep existing item IDs when the PDF only expands a name or fixes spelling.
+stable_ids = {
+ 'eggs-no-eggs-pink-hummus-mushroom-mix-on-bread': 'eggs-no-eggs-pink-hummus-mushroom-mix',
+ 'sides-fresh-fries-with-grana-padano-garlic-parsley': 'sides-fresh-fries-with-grana-padano-garlic-prasley',
+ 'sides-mashed-potatoes-or-vegan-mashed-potatoes': 'sides-mashed-potatoes',
+ 'sides-pink-hummus-with-beetroot': 'sides-hummus-with-beetroot',
+ 'sides-extra-homemade-sauces': 'sides-extra-homade-sauces',
+ 'raw-juice-pineapple-and-orange-and-strawberry': 'raw-juice-pineapple-and-orange-and-stawberry',
+ 'raw-juice-mango-and-orange-and-strawberry': 'raw-juice-mango-and-orange-and-stawberry',
+ 'shots-altos-reposado-or-plata': 'shots-altos-reposado',
+ 'gin-mcqueen-violet-or-ultraviolet-fog': 'gin-mcqueen-ultraviolet-fog',
+ 'tequila-altos-reposado-or-plata': 'tequila-altos-reposado',
+}
 with pdfplumber.open(SOURCE) as pdf:
  lines=pdf.pages[0].extract_text(layout=False).splitlines()
 records=[]
@@ -106,6 +119,7 @@ for row in records:
   if 'PLEUROTUS' in raw_name or 'CAULIFLOWER' in raw_name:
    allergens=[1]
    notes.append('For our vegan dishes, the mashed potatoes are also prepared vegan.')
+   notes.append('The printed menu also lists milk (allergen 7) for the mashed-potato option. Confirm the vegan option\'s allergens with staff.')
    description=re.sub(r'ALLERGEN.*$','',body).strip()
  if cat=='shots':serving='30 ml'
  if cat in ['gin','rum','vodka','whiskey','tequila','aperitif','other-spirits']:
@@ -127,9 +141,12 @@ for row in records:
  if '*' in source and cat=='raw-juice':notes.append('Fruit marked * is frozen fruit.')
  if '- MIN' in raw_name:
   raw_name=re.sub(r'\s*- MIN\.?\s*3','',raw_name);notes.append('Minimum order: 3 shots.')
- if cat=='sides' and raw_name=='EXTRA HOMADE SAUCES':
+ if cat=='sides' and raw_name in ['EXTRA HOMADE SAUCES', 'EXTRA HOMEMADE SAUCES']:
   notes.append('Listed by sauce: marinara — gluten; pesto — milk, nuts; aioli and sriracha mayo — eggs, mustard. Ask staff about spicy honey.')
   allergens=[]
+ if cat=='sides' and raw_name=='MASHED POTATOES / VEGAN MASHED POTATOES':
+  description=description.rstrip('/').strip()
+  notes.append('Mashed potatoes: milk (allergen 7). Vegan mashed potatoes: peanuts (allergen 5), as listed in the printed menu. Confirm the vegan option\'s allergens with staff.')
  if cat=='eggs' and raw_name=='TURKISH EGGS':notes.append('Marked spicy in the menu.')
  if not prices:notes.append('Price: please ask at the bar.')
  name=title(raw_name)
@@ -144,7 +161,8 @@ for row in records:
   if len(volumes)==len(labels):labels=[f'{label} · {volumes[i].strip()}' for i,label in enumerate(labels)]
   elif serving:labels=[f'{label} · {serving}' for label in labels]
  else:labels=[serving or 'Per item'] if prices else []
- item={'id':cat+'-'+slug,'categoryId':cat,'name':name,'description':readable(description),'serving':serving,'prices':prices,'priceLabels':labels,'allergens':allergens,'notes':notes,'sourceText':source}
+ item_id=stable_ids.get(cat+'-'+slug, cat+'-'+slug)
+ item={'id':item_id,'categoryId':cat,'name':name,'description':readable(description),'serving':serving,'prices':prices,'priceLabels':labels,'allergens':allergens,'notes':notes,'sourceText':source}
  items.append(item)
 
 assert len({item['id'] for item in items})==len(items), [i for i in items if sum(j['id']==i['id'] for j in items)>1]

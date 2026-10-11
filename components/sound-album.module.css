@@ -50,3 +50,8 @@
  .headline { font-size: clamp(2rem, 8.4vw, 3.8rem); }
 }
 
+@media (min-width: 761px) {
+ .album { height: clamp(240px, calc(100svh - var(--header-height) - 190px), 504px); }
+ .headline { font-size: clamp(2.25rem, min(5.94vw, 11svh), 5.4rem); }
+}
+
