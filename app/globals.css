@@ -216,6 +216,7 @@ main { min-width: 0; padding: 0 48px; }
 .category-tabs button:hover { color:var(--violet); }
 .category-tabs button>span { font-size:11px; color:#74746f; font-weight:400; }
 .tab-scroll { display:grid; place-items:center; width:38px; min-width:38px; height:48px; border:0; background:none; }
+.tab-scroll:disabled { opacity:.3; }
 .tab-scroll:first-child { margin-left:-10px; margin-right:8px; }
 .tab-scroll:last-child { margin-right:-10px; margin-left:8px; }
 .menu-results { padding:40px 0 48px; min-height:350px; }
@@ -761,4 +762,13 @@ h1,h2,h3,h4,h5,h6,
 @media(min-width:761px) and (prefers-reduced-motion:reduce) {
  .venue-page .culture-scroll-type { height:auto; }
  .venue-page .culture-scroll-word { font-size:clamp(1.8rem,min(7.2vw,9svh),5.4rem); }
+}
+
+/* Finish each desktop composition before the next one enters the viewport. */
+@media(min-width:761px) {
+ .venue-page .venue-scene { display:flow-root; min-height:calc(100svh - var(--header-height) - 20px); padding-bottom:24px; }
+ .venue-page .venue-scene>.venue-section-title { margin-top:0; }
+ .venue-page .venue-hero { min-height:calc(100svh - var(--header-height)); align-content:start; }
+ .venue-page .instagram-feature { min-height:calc(100svh - var(--header-height) - 20px); margin-bottom:24px; }
+ .venue-page .culture-scroll { margin-block:24px; }
 }

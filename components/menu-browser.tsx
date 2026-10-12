@@ -22,6 +22,7 @@ export default function MenuBrowser({ categories, items }: { categories: MenuCat
   else requestAnimationFrame(()=>search.current?.focus());
  }
  const visibleCategories=categories.filter(cat=>cat.group===group);
+ const categoryIndex=visibleCategories.findIndex(cat=>cat.id===categoryId);
  const results=useMemo(()=>query.trim()?findMenuItems(items,query):items,[items,query]);
  const counts=useMemo(()=>Object.fromEntries(categories.map(cat=>[cat.id,items.filter(item=>item.categoryId===cat.id).length])),[categories,items]);
  useEffect(()=>{
@@ -36,7 +37,7 @@ export default function MenuBrowser({ categories, items }: { categories: MenuCat
    frame=0;
    const offset=(document.querySelector('.public-header')?.getBoundingClientRect().height||76)+(sticky.current?.offsetHeight||0)+32;
    let active=categories[0];
-   for(const cat of categories){const section=document.getElementById(cat.id);if(section&&section.getBoundingClientRect().top<=offset)active=cat;}
+   for(const cat of categories){const section=document.getElementById(cat.id);const heading=section?.querySelector<HTMLElement>('.menu-category-heading')||section;if(heading&&heading.getBoundingClientRect().top<=offset)active=cat;}
    setCategoryId(active.id);setGroup(active.group);
   };
   const scroll=()=>{if(!frame)frame=requestAnimationFrame(update);};
@@ -53,9 +54,10 @@ export default function MenuBrowser({ categories, items }: { categories: MenuCat
   setCategoryId(id);setGroup(next.group);setQuery('');
   window.history.pushState(null,'',`#${id}`);
   requestAnimationFrame(()=>requestAnimationFrame(()=>{
-   const target=document.getElementById(id);
+   const section=document.getElementById(id);
+   const target=section?.querySelector<HTMLElement>('.menu-category-heading')||section;
    const header=document.querySelector('.public-header')?.getBoundingClientRect().height||76;
-   if(target)window.scrollTo({top:window.scrollY+target.getBoundingClientRect().top-header-(sticky.current?.offsetHeight||0)-20,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+   if(target)window.scrollTo({top:window.scrollY+target.getBoundingClientRect().top-header-(sticky.current?.offsetHeight||0)-12,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   }));
  }
  function tabKey(event:KeyboardEvent<HTMLButtonElement>,index:number){
@@ -68,11 +70,11 @@ export default function MenuBrowser({ categories, items }: { categories: MenuCat
   event.preventDefault();choose(visibleCategories[next].id);
   tabRail.current?.querySelector<HTMLButtonElement>(`[data-category="${visibleCategories[next].id}"]`)?.focus({preventScroll:true});
  }
- function scrollTabs(direction:number){tabRail.current?.scrollBy({left:direction*280,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
+ function stepCategory(direction:number){const next=visibleCategories[categoryIndex+direction];if(next)choose(next.id);}
  return <>
   <div className="menu-sticky" ref={sticky}>
    <div className="menu-control-row"><div className="menu-groups" role="group" aria-label="Menu sections">{menuGroups.filter(g=>categories.some(c=>c.group===g.id)).map(g=><button key={g.id} className={group===g.id&&!query.trim()?'is-active':''} aria-label={g.label} aria-pressed={group===g.id&&!query.trim()} onClick={()=>choose(categories.find(c=>c.group===g.id)!.id)}><CategoryIcon id={g.id}/><span className="group-full-label">{g.label}</span><span className="group-short-label" aria-hidden="true">{g.id==='cafe'?'Café & soft':g.label}</span></button>)}</div><button ref={searchToggle} className="menu-search-toggle" aria-label={searchOpen?'Close menu search':'Search the menu'} aria-expanded={searchOpen} aria-controls="menu-search-field" onClick={toggleSearch}>{searchOpen?<RiCloseLine size={20}/>:<RiSearchLine size={20}/>}</button><div className={`menu-search ${searchOpen?'is-open':''}`} id="menu-search-field"><RiSearchLine size={19}/><input ref={search} type="search" aria-label="Search all food and drinks" placeholder="Find your favourite" value={query} onChange={e=>setQuery(e.target.value)} onKeyDown={e=>{if(e.key==='Escape'&&searchOpen){e.preventDefault();toggleSearch();}}}/>{query&&<button onClick={()=>{setQuery('');search.current?.focus();}} aria-label="Clear search"><RiCloseLine size={18}/></button>}</div></div>
-   <div className="category-control"><button className="tab-scroll" onClick={()=>scrollTabs(-1)} aria-label="Scroll categories left"><RiArrowLeftSLine size={22}/></button><div className="category-tabs" ref={tabRail} role="navigation" aria-label={`${menuGroups.find(g=>g.id===group)?.label} categories`}>{visibleCategories.map((cat,i)=><button key={cat.id} id={`tab-${cat.id}`} aria-current={categoryId===cat.id&&!query.trim()?'location':undefined} aria-controls={cat.id} data-category={cat.id} onKeyDown={e=>tabKey(e,i)} onClick={()=>choose(cat.id)}><CategoryIcon id={cat.id}/>{cat.name}<span>{String(counts[cat.id]).padStart(2,'0')}</span></button>)}</div><button className="tab-scroll" onClick={()=>scrollTabs(1)} aria-label="Scroll categories right"><RiArrowRightSLine size={22}/></button></div>
+   <div className="category-control"><button className="tab-scroll" onClick={()=>stepCategory(-1)} disabled={categoryIndex<=0} aria-label="Previous category"><RiArrowLeftSLine size={22}/></button><div className="category-tabs" ref={tabRail} role="navigation" aria-label={`${menuGroups.find(g=>g.id===group)?.label} categories`}>{visibleCategories.map((cat,i)=><button key={cat.id} id={`tab-${cat.id}`} aria-current={categoryId===cat.id&&!query.trim()?'location':undefined} aria-controls={cat.id} data-category={cat.id} onKeyDown={e=>tabKey(e,i)} onClick={()=>choose(cat.id)}><CategoryIcon id={cat.id}/>{cat.name}<span>{String(counts[cat.id]).padStart(2,'0')}</span></button>)}</div><button className="tab-scroll" onClick={()=>stepCategory(1)} disabled={categoryIndex>=visibleCategories.length-1} aria-label="Next category"><RiArrowRightSLine size={22}/></button></div>
   </div>
   <div className="menu-results" ref={panel}>
    <p className="menu-result-announcement" aria-live="polite">{query.trim()?`${results.length} matches for “${query.trim()}”`:'The whole menu. Scroll to explore, or jump to a category.'}</p>
