@@ -772,3 +772,9 @@ h1,h2,h3,h4,h5,h6,
  .venue-page .instagram-feature { min-height:calc(100svh - var(--header-height) - 20px); margin-bottom:24px; }
  .venue-page .culture-scroll { margin-block:24px; }
 }
+
+/* Fill the desktop hero while leaving room for its address and outer spacing. */
+@media(min-width:761px) and (min-height:560px) {
+ .venue-page .venue-hero { height:calc(100svh - var(--header-height)); grid-template-rows:auto minmax(0,1fr) auto minmax(0,1fr); }
+ .venue-page .hero-menu-panel { min-height:0; height:100%; max-height:100%; align-self:stretch; }
+}
